@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0g1-l2-JQd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Collection View Controller-->
+        <scene sceneID="1e6-ja-CY5">
+            <objects>
+                <collectionViewController id="PMu-6S-i78" customClass="CollectionViewController" customModule="ImageViewer" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" directionalLockEnabled="YES" pagingEnabled="YES" dataMode="prototypes" id="lKh-2E-bOz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewLayout key="collectionViewLayout" id="Tdd-Oi-nOo" customClass="ImageFlowLayout" customModule="ImageViewer" customModuleProvider="target"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="F72-KR-fZY">
+                                <rect key="frame" x="4.5" y="0.0" width="366" height="670"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="366" height="670"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" tag="1024" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vfq-Tv-CVt">
+                                            <rect key="frame" x="8" y="8" width="350" height="654"/>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Vfq-Tv-CVt" firstAttribute="top" secondItem="F72-KR-fZY" secondAttribute="top" constant="8" id="AH7-gH-gck"/>
+                                    <constraint firstItem="Vfq-Tv-CVt" firstAttribute="leading" secondItem="F72-KR-fZY" secondAttribute="leading" constant="8" id="Ddd-DO-zLr"/>
+                                    <constraint firstAttribute="bottom" secondItem="Vfq-Tv-CVt" secondAttribute="bottom" constant="8" id="Ehy-YG-Mi4"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vfq-Tv-CVt" secondAttribute="trailing" constant="8" id="eFV-Zb-9ZR"/>
+                                </constraints>
+                                <size key="customSize" width="366" height="670"/>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="PMu-6S-i78" id="cDS-sY-b04"/>
+                            <outlet property="delegate" destination="PMu-6S-i78" id="HJR-7r-xaf"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="ymS-MP-UaA">
+                        <nil key="title"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="play" id="Coj-T4-P5a">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pzf-lM-Iqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82" y="358"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="v2H-mh-kMX">
+            <objects>
+                <navigationController hidesBarsWhenVerticallyCompact="YES" id="0g1-l2-JQd" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Y4x-ad-Rn1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="PMu-6S-i78" kind="relationship" relationship="rootViewController" id="kkC-Aa-Ftv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7tl-Fq-G2G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-860" y="358"/>
+        </scene>
+    </scenes>
+</document>
