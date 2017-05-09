@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521A8D4C1EC05CBE003B9940 /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A8D4B1EC05CBE003B9940 /* AccessControl.swift */; };
 		521D8D831EAF3C27000EC7FC /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D8D821EAF3C27000EC7FC /* Collection.swift */; };
 		5234461F1EB8171900710072 /* AboutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234461E1EB8171900710072 /* AboutType.swift */; };
 		523446231EB81F6800710072 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523446221EB81F6800710072 /* Extensions.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		521A8D4B1EC05CBE003B9940 /* AccessControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessControl.swift; sourceTree = "<group>"; };
 		521D8D821EAF3C27000EC7FC /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		5234461E1EB8171900710072 /* AboutType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutType.swift; sourceTree = "<group>"; };
 		523446221EB81F6800710072 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		521A8D4D1EC05CC4003B9940 /* 访问控制 */ = {
+			isa = PBXGroup;
+			children = (
+				521A8D4B1EC05CBE003B9940 /* AccessControl.swift */,
+			);
+			name = "访问控制";
+			sourceTree = "<group>";
+		};
 		521D8D7E1EAF2C25000EC7FC /* 泛型 */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +183,7 @@
 				521D8D801EAF2C4B000EC7FC /* 基础类型 */,
 				521D8D7F1EAF2C2D000EC7FC /* 枚举 */,
 				521D8D7E1EAF2C25000EC7FC /* 泛型 */,
+				521A8D4D1EC05CC4003B9940 /* 访问控制 */,
 			);
 			path = SwiftPlayGround;
 			sourceTree = "<group>";
@@ -310,6 +321,7 @@
 			files = (
 				525F79E01EAD9BCC00AD5E8D /* SwiftFoundation.swift in Sources */,
 				525F79E41EADAAB100AD5E8D /* StringPlay.swift in Sources */,
+				521A8D4C1EC05CBE003B9940 /* AccessControl.swift in Sources */,
 				5270A4EB1EB1CBB000BAECAB /* CatchError.swift in Sources */,
 				52EC34F71EB04D1100630BE5 /* Closures.swift in Sources */,
 				525F79DC1EAD8F7900AD5E8D /* EnumPlay.swift in Sources */,

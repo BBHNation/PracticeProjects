@@ -8,9 +8,5 @@
 
 import Foundation
 
-let solve = LongestSubstringWithoutRepeatingCharacters()
-print(solve.lengthOfLongestSubstring("abcdefghijklmnopqrstuvwxyz"))
-print(solve.lengthOfLongestSubstring("aaaaaaaaaaaaaaaaaaaaaaaaaa"))
-print(solve.lengthOfLongestSubstring("aaaaaaaaaaaaaaaaaaaaaaaaaabcd"))
-print(solve.lengthOfLongestSubstring("abcdefghijklmnopqrstuvwxybcdefghijklmnopqrstuvwxybcdefghijklmnopqrstuvwxybcdefghijklmnopqrstuvwxybcdefghijklmnopqrstuvwxybcdefghijklmnopqrstuvwxybcdefghijklmnopqrstuvwxybcdefghijklmnopqrstuvwxyabcdefghijklmnopqrstuvwxyz"))
-
+let solve = AddTwoNumbersII()
+solve.main()

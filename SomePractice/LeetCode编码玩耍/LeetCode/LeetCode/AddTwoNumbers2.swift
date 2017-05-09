@@ -58,19 +58,7 @@ class AddTwoNumbersII {
         return (newHead?.next)!
     }
     
-    func main() {
-        let firstNum = ListNode(9)
-        firstNum.next = ListNode(8)
-        firstNum.next?.next = ListNode(5)
-        
-        let secondeNum = ListNode(1)
-        secondeNum.next = ListNode(8)
-        secondeNum.next?.next = ListNode(5)
-        
-        _ = addTwoNumbers(firstNum, secondeNum)
-        
-        
-    }
+    
     
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         var finalSum : ListNode?
@@ -80,4 +68,132 @@ class AddTwoNumbersII {
         finalSum = AddTwoNumbers().finalAddTwoNumbers(q, p)
         return reverseList(l: finalSum!)
     }
+    
+    
+    /**
+      Follow up:
+     What if you cannot modify the input lists? In other words, reversing the lists is not allowed.
+     */
+    
+    /**
+     思路：
+     1、补0
+     2、相加
+     3、保存进位链表和tag
+     4、递归调用自己
+     */
+    
+    func calculateZero(_ l1 : ListNode, _ l2 : ListNode) -> (Int, Bool) {
+        var q : ListNode? = l1
+        var p : ListNode? = l2
+        while q != nil && p != nil{
+            q = q?.next
+            p = p?.next
+        }
+        var count = 0
+        var x = q==nil ? p : q
+        let isFirstList : Bool = x===q ? true : false
+        while x != nil {
+            x = x?.next
+            count += 1
+        }
+        return (count, isFirstList)
+    }
+    
+    func addZero(_ l : ListNode?, _ zeroCount : Int) -> ListNode {
+        let head = ListNode(0)
+        head.next = l
+        for _ in 0..<zeroCount {
+            let newNode = ListNode(0)
+            newNode.next = head.next
+            head.next = newNode
+        }
+        return head.next!
+    }
+    
+    func addTwoList(_ l1 : ListNode, _ l2 : ListNode) -> ListNode{
+        // 保证位数相同
+        var q : ListNode? = l1
+        var p : ListNode? = l2
+        let carryList : ListNode? = ListNode(-1)// 存储进位链表
+        var carryFinal : ListNode? = carryList// 存储carry的最后一个节点
+        var carryTag : Bool = false// 存储有无进位
+        
+        var sumList : ListNode? = ListNode(-1)// 存储无进位信息的和
+        var sumFinal : ListNode? = sumList// 存储sumList的最后一个节点
+        
+        
+        while q != nil && p != nil {
+            var sum = (q?.val)! + (p?.val)!
+            let newNode = ListNode(sum/10)//进位信息
+            
+            // 存储进位信息到carry中
+            if sum/10 == 1 { carryTag = true }//如果有进位，设置进位表示符为true
+            carryFinal?.next = newNode
+            carryFinal = newNode
+            
+            sum = sum % 10//当前位的结果，去除了进位信息
+            
+            let xinNode = ListNode(sum)
+            
+            // 存储非进位信息的和到sumList中
+            sumFinal?.next = xinNode
+            sumFinal = xinNode
+            
+            q = q?.next
+            p = p?.next
+        }
+        
+        if carryTag {// 如果有进位，则让结果与进位相加
+            
+            // 给非进位的链表头加一个0
+            let newNode = ListNode(0)
+            newNode.next = sumList?.next
+            sumList?.next = newNode
+            
+            // 给进位信息链表尾加一个0
+            let zeroNode = ListNode(0)
+            carryFinal?.next = zeroNode
+            
+            // 递归调用
+            return addTwoList((sumList?.next!)!, (carryList?.next!)!)
+        }
+        else {
+            while sumList?.next?.val == 0 && sumList?.next?.next != nil {
+                sumList = sumList?.next
+            }
+            return (sumList?.next!)!
+        }
+    }
+    
+    func newAddTwoNumberII(_ l1 : ListNode, _ l2 : ListNode) -> ListNode {
+        let firstNum = l1
+        let secondeNum = l2
+        
+        let result = calculateZero(firstNum, secondeNum)
+        var newFirstList = result.1 ? secondeNum : firstNum
+        newFirstList = addZero(newFirstList, result.0)
+    
+        let newSecondeList = result.1 ? firstNum : secondeNum
+        return addTwoList(newFirstList, newSecondeList)
+    }
+    
+    func main() {
+        let firstNum = ListNode(8)
+        firstNum.next = ListNode(9)
+        firstNum.next?.next = ListNode(9)
+        // 985
+        
+        let secondeNum = ListNode(2)
+//        secondeNum.next = ListNode(8)
+//        secondeNum.next?.next = ListNode(5)
+//        secondeNum.next?.next?.next = ListNode(5)
+//        secondeNum.next?.next?.next?.next = ListNode(5)
+        // 38555
+        
+        
+        let resultList = newAddTwoNumberII(firstNum, secondeNum)
+        print(resultList.val)
+    }
+    
 }
