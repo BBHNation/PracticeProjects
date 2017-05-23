@@ -3,17 +3,19 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+
 import argparse
-import sys
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
+# Import data
 FLAGS = None
 parser = argparse.ArgumentParser()
 parser.add_argument('--data_dir', type=str, default='/tmp/tensorflow/mnist/input_data',
                       help='Directory for storing input data')
 FLAGS, unparsed = parser.parse_known_args()
-# Import data
 mnist = input_data.read_data_sets(FLAGS.data_dir, one_hot=True)
 # mnist.train train Data
 # mnist.test test Data
@@ -39,7 +41,7 @@ y = tf.nn.softmax(tf.matmul(x,W)+b)
 # 这里x是一个2维张量拥有多个输入。然后再加上b，把和输入到tf.nn.softmax函数里面。
 
 # 交叉熵的计算
-y_ = tf.placeholder("float", [None,10])
+y_ = tf.placeholder(tf.float32, [None,10])
 # 为了计算交叉熵，我们首先需要添加一个新的占位符用于输入正确值：
 
 cross_entropy = -tf.reduce_sum(y_*tf.log(y)) # 交叉熵

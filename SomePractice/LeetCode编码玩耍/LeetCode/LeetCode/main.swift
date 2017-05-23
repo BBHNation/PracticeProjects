@@ -8,5 +8,5 @@
 
 import Foundation
 
-let solve = AddTwoNumbersII()
+let solve = FourSumCount()
 solve.main()

@@ -12,6 +12,7 @@
 		5234461F1EB8171900710072 /* AboutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5234461E1EB8171900710072 /* AboutType.swift */; };
 		523446231EB81F6800710072 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523446221EB81F6800710072 /* Extensions.swift */; };
 		523446261EB828FB00710072 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523446251EB828FB00710072 /* Protocol.swift */; };
+		5243A5FF1EC192B600D9B972 /* AdvancedOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243A5FE1EC192B600D9B972 /* AdvancedOperator.swift */; };
 		525F79D51EAD8DC600AD5E8D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F79D41EAD8DC600AD5E8D /* main.swift */; };
 		525F79DC1EAD8F7900AD5E8D /* EnumPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F79DB1EAD8F7900AD5E8D /* EnumPlay.swift */; };
 		525F79DE1EAD903500AD5E8D /* GenericPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525F79DD1EAD903500AD5E8D /* GenericPlay.swift */; };
@@ -46,6 +47,7 @@
 		5234461E1EB8171900710072 /* AboutType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutType.swift; sourceTree = "<group>"; };
 		523446221EB81F6800710072 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		523446251EB828FB00710072 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		5243A5FE1EC192B600D9B972 /* AdvancedOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvancedOperator.swift; sourceTree = "<group>"; };
 		525F79D11EAD8DC600AD5E8D /* SwiftPlayGround */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftPlayGround; sourceTree = BUILT_PRODUCTS_DIR; };
 		525F79D41EAD8DC600AD5E8D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		525F79DB1EAD8F7900AD5E8D /* EnumPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumPlay.swift; sourceTree = "<group>"; };
@@ -122,6 +124,14 @@
 			name = "集合类型";
 			sourceTree = "<group>";
 		};
+		522958681EC1AEC2005B2C26 /* 高级运算符 */ = {
+			isa = PBXGroup;
+			children = (
+				5243A5FE1EC192B600D9B972 /* AdvancedOperator.swift */,
+			);
+			name = "高级运算符";
+			sourceTree = "<group>";
+		};
 		523446211EB8173C00710072 /* 类型转换和嵌套类型 */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				525F79D41EAD8DC600AD5E8D /* main.swift */,
+				522958681EC1AEC2005B2C26 /* 高级运算符 */,
 				523446271EB828FF00710072 /* 协议 */,
 				523446241EB81F6D00710072 /* 扩展 */,
 				523446211EB8173C00710072 /* 类型转换和嵌套类型 */,
@@ -326,6 +337,7 @@
 				52EC34F71EB04D1100630BE5 /* Closures.swift in Sources */,
 				525F79DC1EAD8F7900AD5E8D /* EnumPlay.swift in Sources */,
 				523446261EB828FB00710072 /* Protocol.swift in Sources */,
+				5243A5FF1EC192B600D9B972 /* AdvancedOperator.swift in Sources */,
 				52EC34F31EB0468A00630BE5 /* Functions.swift in Sources */,
 				521D8D831EAF3C27000EC7FC /* Collection.swift in Sources */,
 				5234461F1EB8171900710072 /* AboutType.swift in Sources */,
