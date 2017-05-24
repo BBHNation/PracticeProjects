@@ -61,4 +61,87 @@ request = urllib2.Request(url, data=data)
 request.get_method = lambda: 'PUT' # or 'DELETE'
 response = urllib2.urlopen(request)
 
+# 使用DebugLog
+httpHandler = urllib2.HTTPHandler(debuglevel=1)
+httpsHandler = urllib2.HTTPSHandler(debuglevel=1)
+opener = urllib2.build_opener(httpHandler, httpsHandler)
+urllib2.install_opener(opener)
+response = urllib2.urlopen('http://www.baidu.com')
+
+#————————————————————————————————————————————————————————————————————————————
+# URLError
+
+requset = urllib2.Request('http://www.xxxxx.com')
+try:
+    urllib2.urlopen(request) # 如果不能处理，则会产生一个错误，需要错误处理
+except urllib2.URLError, e:
+    print e.reason
+
+
+try:
+    urllib2.urlopen(request)
+except urllib2.HTTPError, e:
+    print e.code
+    print e.reason
+
+#————————————————————————————————————————————————————————————————————————————
+# Cookie使用
+
+# 1、Opener
+# 当你获取一个URL你使用一个opener(一个urllib2.OpenerDirector的实例)。在前面，
+# 我们都是使用的默认的opener，也就是urlopen。它是一个特殊的opener，可以理解成opener的一个特殊实例，
+# 传入的参数仅仅是url，data，timeout。
+# 如果我们需要用到Cookie，只用这个opener是不能达到目的的，所以我们需要创建更一般的opener来实现对Cookie的设置。
+
+# 2、Cookielib
+# cookielib模块的主要作用是提供可存储cookie的对象，以便于与urllib2模块配合使用来访问Internet资源。
+# 它们的关系：CookieJar —-派生—->FileCookieJar  —-派生—–>MozillaCookieJar和LWPCookieJar
+
+# 首先，我们先利用CookieJar对象实现获取cookie的功能，存储到变量中，
+import cookielib
+
+#声明一个CookieJar对象实例来保存cookie
+cookie = cookielib.CookieJar()
+#利用urllib2库的HTTPCookieProcessor对象来创建cookie处理器
+handler=urllib2.HTTPCookieProcessor(cookie)
+#通过handler来构建opener
+opener = urllib2.build_opener(handler)
+#此处的open方法同urllib2的urlopen方法，也可以传入request
+response = opener.open('http://www.baidu.com')
+for item in cookie:
+    print 'Name = '+item.name
+    print 'Value = '+item.value
+
+# 保存Cookie到文件中
+
+# 设置保存cookie的文件，同级目录下的cookie.txt
+filename = 'cookie.txt'
+# 声明一个MozillaCookieJar对象实例来保存cookie，之后写入文件
+cookie = cookielib.MozillaCookieJar(filename)
+# 利用urllib2库的HTTPCookieProcessor对象来创建cookie处理器
+handler = urllib2.HTTPCookieProcessor(cookie)
+# 通过handler来构建opener
+opener = urllib2.build_opener(handler)
+# 创建一个请求，原理同urllib2的urlopen
+response = opener.open("http://www.baidu.com")
+# 保存cookie到文件
+cookie.save(ignore_discard=True, ignore_expires=True)
+# ignore_discard的意思是即使cookies将被丢弃也将它保存下来，
+# ignore_expires的意思是如果在该文件中cookies已经存在，则覆盖原文件写入
+
+#从文件中读取Cookie
+
+#创建MozillaCookieJar实例对象
+cookie = cookielib.MozillaCookieJar()
+#从文件中读取cookie内容到变量
+cookie.load('cookie.txt', ignore_discard=True, ignore_expires=True)
+#创建请求的request
+req = urllib2.Request("http://www.baidu.com")
+#利用urllib2的build_opener方法创建一个opener
+opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
+response = opener.open(req)
+print response.read()
+
+#————————————————————————————————————————————————————————————————————————————
+# 正则表达式
 
