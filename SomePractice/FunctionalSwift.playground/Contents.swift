@@ -1,10 +1,16 @@
 //: Playground - noun: a place where people can play
 
 import Foundation
-import UIKit
-let image = CIImage(contentsOf: URL.init(string: "http://www.objc.io/images/covers/16.jpg")!)
-let finalImage = Filter.blur(radius: 5)
-let finalFinalImgae = Filter.colorOverlay(color: .black)
-let finelFileter = finalImage >>> finalFinalImgae
-let i = finelFileter.filt(image)
+String.arbitrary()
+String.arbitrary()
+String.arbitrary()
+
+
+
+check2(message: "int > 50", { (value: Int) -> Bool in
+    print(value)
+    return value > 40
+})
+
+
 
