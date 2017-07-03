@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSDictionary *dic = @{@"name":@"BBH",@"gender":@"man"};
+    NSDictionary *dic = @{@"name":@"BBH",@"gender":@"man",@"test":@1234};
     PersonEntity *entity = [[PersonEntity alloc] initWithDic:dic];
     NSLog(@"entity is %@",entity);
 }

@@ -12,5 +12,6 @@
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *gender;
+@property (nonatomic, strong) NSString *test;
 
 @end

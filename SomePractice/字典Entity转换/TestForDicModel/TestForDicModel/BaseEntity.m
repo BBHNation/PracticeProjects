@@ -30,14 +30,16 @@
                 //如果是NSString类型
                 NSString *value = dic[key] ? [NSString stringWithFormat:@"%@", dic[key]] : @"";
                 [self setValue:value forKey:key];
-            }else if (classType == [NSNumber class]) {
+            }
+            else if (classType == [NSNumber class]) {
                 //如果是NSNumber类型
                 NSString *value = dic[key] ? [NSString stringWithFormat:@"%@", dic[key]] : @"";
                 NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
                 NSNumber *numValue = [numberFormatter numberFromString:value]?:@(-1);
                 [numberFormatter release];
                 [self setValue:numValue forKey:key];
-            }else if (classType == [NSArray class]){
+            }
+            else if (classType == [NSArray class]){
                 //如果是NSArray类型
                 NSArray *array = dic[key];
                 if (array == nil ||
@@ -62,7 +64,8 @@
                     }else{/*.. 尚未考虑其他类型*/}
                 }
                 [self setValue:brr forKey:key];
-            }else{
+            }
+            else{
                 //其他类型
                 if ([dic[key] isKindOfClass:[NSDictionary class]]) {
                     //如果是NSDictinoary类型

@@ -24,7 +24,7 @@ extension BinarySearchTree {
 // MARK: - 递归方式查询二叉树中的存值的个数
 extension BinarySearchTree {
     public var count: Int {
-        swit ch self {
+        switch self {
         case .Leaf:
             return 0
         case .Node(let left, _, let right):
@@ -116,6 +116,87 @@ extension BinarySearchTree {
             else if x > y { right.insert(x: x) }
             self = BinarySearchTree.Node(left, y, right)//刷新一次
         }
+    }
+}
+
+
+
+
+
+
+
+//************************************************************************************************************
+
+/// 字典树的定义
+/// 字典树Trie，主要用于词频统计和前缀查询,根结点没有信息，每个节点都是一个字典树
+public struct Trie<Element: Hashable> {
+    public var isElement: Bool
+    public var children: [Element: Trie<Element>]
+}
+
+
+// MARK: - 初始化
+extension Trie {
+    public init() {
+        isElement = false
+        children = [:]
+    }
+    
+    public mutating func `init`(isElement: Bool, children: [Element: Trie<Element>]) {
+        self.isElement = isElement
+        self.children = children
+    }
+}
+
+
+// MARK: - 获取字典树的所有内容
+extension Trie {
+    var elements: [[Element]] {
+        var result: [[Element]] = isElement ? [[]] : []// 如果自己是一个元素，则本元素下有可能有其他元素，所以为【【】】
+        for (key, value) in children {// 遍历自己所有的子树，计算出子树的所有元素
+            result += value.elements.map({ [key] + $0 })// map函数将每一个子字典树对应的charecter（也就是key）放到子树elments的首位
+        }
+        return result
+    }
+}
+
+// MARK: - 针对Array的递归扩展
+extension Array {
+    var decompose: (Element, [Element])? {
+        return isEmpty ? nil : (self[startIndex], Array(self.dropFirst()))// 返回数组第一个元素和数组去除第一个元素后的数组，方便递归调用，直到返回为nil
+    }
+}
+
+/// 使用递归扩展来实现累加
+func sum(xs: [Int]) -> Int {
+    guard let (head, tail) = xs.decompose else { return 0 }
+    return head + sum(xs: tail)
+}
+
+
+// MARK: - 给定一个由一些Element组成的数组，便利一个字典树，从而来逐一确认对应的键值是否存储在树中
+// 例如"abc"传入一个包含"abc"的字典树中，则会得到true的返回
+extension Trie {
+    func lookup(key: [Element]) -> Bool {
+        guard let (head, tail) = key.decompose else { return isElement }// 1、键组为空，返回当前节点的isElement
+        guard let subtrie = children[head] else { return false }// 2、键组不为空，但是没有对应的子树，返回false
+        return subtrie.lookup(key: tail)// 3、键组不为空，查询键组中第一个键对应的子树
+    }
+}
+
+extension Trie {
+    func withPrefix(prefix: [Element]) -> Trie<Element>? {
+        guard let (head, tail) = prefix.decompose else { return self }// 1、键组为空，返回整个字典树
+        guard let remainder = children[head] else { return nil }// 2、如果children中没有包含head这个键，则直接返回为空
+        return remainder.withPrefix(prefix: tail)// 3、键组不为空，查询键组中第一个键对应的子树
+    }
+}
+
+
+// MARK: - 自动补全
+extension Trie {
+    func autocomplete(key: [Element]) -> [[Element]] {
+        return withPrefix(prefix: key)?.elements ?? []
     }
 }
 
