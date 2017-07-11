@@ -18,9 +18,9 @@ let blueColor = UIColor.init(red: 0.2, green: 0.5, blue: 1.0, alpha: 1.0).cgColo
 
 public class DrewCircleView: UIView, CAAnimationDelegate {
 
-    var redCircleLayer: CAShapeLayer?
-    var greenCircleLayer: CAShapeLayer?
-    var blueCircleLayer: CAShapeLayer?
+    var redCircleLayer: CALayer?
+    var greenCircleLayer: CALayer?
+    var blueCircleLayer: CALayer?
     
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -35,29 +35,13 @@ public class DrewCircleView: UIView, CAAnimationDelegate {
         self.layer.addSublayer(circleLayerWith(color: blueColor_alpha, radius: length/2 - length*3/8, viewWidth: length, percent: 1.0))
         
         // 绘制上层Layers并添加动画
-        redCircleLayer = circleLayerWith(color: redColor, radius: length/2 - length/8, viewWidth: length, percent: 0.8).addCircleAnimation(duration: 3.0).1
-        greenCircleLayer = circleLayerWith(color: greenColor, radius: length/2 - length/4, viewWidth: length, percent: 0.7).addCircleAnimation(duration: 3.0).1
-        blueCircleLayer = circleLayerWith(color: blueColor, radius: length/2 - length*3/8, viewWidth: length, percent: 0.9).addCircleAnimation(duration: 3.0).1
+        redCircleLayer = circleLayerWith(color: redColor, radius: length/2 - length/8, viewWidth: length, percent: 0.8).addCircleAnimation(duration: 3.0).1.addShadow()
+        greenCircleLayer = circleLayerWith(color: greenColor, radius: length/2 - length/4, viewWidth: length, percent: 0.7).addCircleAnimation(duration: 3.0).1.addShadow()
+        blueCircleLayer = circleLayerWith(color: blueColor, radius: length/2 - length*3/8, viewWidth: length, percent: 0.9).addCircleAnimation(duration: 3.0).1.addShadow()
         
-        
-        // Create shadow layer
-        let shadowLayer = CALayer()
-        shadowLayer.frame = rect
-        shadowLayer.shadowColor = UIColor.black.cgColor
-        shadowLayer.shadowOffset = CGSize.zero
-        shadowLayer.shadowRadius = 10
-        shadowLayer.shadowOpacity = 1.0
-        shadowLayer.backgroundColor = UIColor.clear.cgColor
-        shadowLayer.insertSublayer(redCircleLayer!, at: 0)
-        
-        // Shadow path animation
-        let shadowPathAnimation: CABasicAnimation = CABasicAnimation(keyPath: "shadowPath")
-        shadowPathAnimation.fromValue = 0.0
-        shadowPathAnimation.toValue = redCircleLayer?.path
-        shadowLayer.add(shadowPathAnimation, forKey: "shadowPathAnimation")
         
         // 添加动画
-        self.layer.addSublayer(shadowLayer)
+        self.layer.addSublayer(redCircleLayer!.addGradientLayer(rect: rect))
         self.layer.addSublayer(greenCircleLayer!)
         self.layer.addSublayer(blueCircleLayer!)
     }
@@ -102,5 +86,38 @@ extension CAShapeLayer {
         animation.duration = duration
         self.add(animation, forKey: "strokeEndAnimation")
         return (animation, self)
+    }
+    
+    func addShadow() -> CALayer {
+        // Create shadow layer
+        let shadowLayer = CALayer()
+        shadowLayer.frame = self.frame
+        shadowLayer.shadowColor = UIColor.black.cgColor
+        shadowLayer.shadowOffset = CGSize.zero
+        shadowLayer.shadowRadius = 10
+        shadowLayer.shadowOpacity = 1.0
+        shadowLayer.backgroundColor = UIColor.clear.cgColor
+        shadowLayer.insertSublayer(self, at: 0)
+        
+        // Shadow path animation
+        let shadowPathAnimation: CABasicAnimation = CABasicAnimation(keyPath: "shadowPath")
+        shadowPathAnimation.fromValue = 0.0
+        shadowPathAnimation.toValue = self.path
+        shadowLayer.add(shadowPathAnimation, forKey: "shadowPathAnimation")
+        
+        return shadowLayer
+    }
+}
+
+extension CALayer {
+    
+    func addGradientLayer(rect: CGRect) -> CAGradientLayer {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = rect
+        gradientLayer.colors = [UIColor.red.cgColor, UIColor.orange.cgColor, UIColor.yellow.cgColor]
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
+        gradientLayer.endPoint = CGPoint(x: 1, y: 1)
+        gradientLayer.mask = self
+        return gradientLayer
     }
 }
