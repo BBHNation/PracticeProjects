@@ -10,7 +10,7 @@ import Cocoa
 /// 采用策略（strategy）设计模式
 /// 面向协议编程
 protocol 最大子数组协议 {
-    func find_maximum_subarray(A: Array<Int>, low: Int, high: Int)
+    func find_maximum_subarray(A: Array<Int>)
         ->
         (maxLeft: Int, maxRight: Int, sum: Int)
 }
@@ -103,6 +103,72 @@ class 最大子数组分治算法: 最大子数组协议 {
                 return (cross_low, cross_higth, cross_sum)
             }
         }
+    }
+    
+    /// 协议函数
+    func find_maximum_subarray(A: Array<Int>) -> (maxLeft: Int, maxRight: Int, sum: Int) {
+        if A.count == 0 {
+            return (0, 0, 0)
+        }
+        return find_maximum_subarray(A: A, low: 0, high: A.count-1)
+    }
+}
+
+
+/// 暴力求解方法 时间复杂度是 O（n2）
+class 最大子数组暴力算法: 最大子数组协议 {
+    func find_maximum_subarray(A: Array<Int>) -> (maxLeft: Int, maxRight: Int, sum: Int) {
+        if A.count == 0 {
+            return (0, 0, 0)
+        }
+        var leftIndex = 0
+        var rightIndex = 0
+        var maxSum = Int.min
         
+        for i in 0..<A.count {
+            var temSum = 0
+            for j in i..<A.count {
+                temSum += A[j] // 先加上，如果加上一个比之前的大，则修改数据
+                if temSum > maxSum {
+                    maxSum = temSum
+                    leftIndex = i
+                    rightIndex = j
+                }
+            }
+        }
+        return (leftIndex, rightIndex, maxSum)
+    }
+}
+
+class 最大子数组扫描算法: 最大子数组协议 {
+    
+    /// 扫描一次的算法
+    ///
+    /// - Parameter A: 数组
+    /// - Returns: 返回（左边界，右边界，和）
+    func find_maximum_subarray(A: Array<Int>) -> (maxLeft: Int, maxRight: Int, sum: Int) {
+        var leftIndex = 0
+        var rightIndex = 0
+        var sum = 0
+        
+        for i in 0..<A.count {
+            if A[i] > 0 {
+                sum += A[i]
+                rightIndex = i
+            } else if A[i] < 0 {
+                if sum < 0 || (sum + A[i]) < 0 {
+                    sum = 0
+                    leftIndex = i
+                    rightIndex = i
+                }
+            }
+        }
+        
+        if leftIndex == rightIndex && leftIndex == A.count-1 && sum != A[rightIndex]{
+            sum = A.max()! // 时间复杂度为n
+            leftIndex = A.index(of: sum)! // 时间复杂度为n
+            rightIndex = leftIndex
+        }
+        return (leftIndex, rightIndex, sum)
     }
 }
