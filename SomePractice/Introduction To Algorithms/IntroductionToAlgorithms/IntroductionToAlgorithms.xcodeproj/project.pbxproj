@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52076E481F4D1E7B00B5C931 /* 最大子数组问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52076E471F4D1E7B00B5C931 /* 最大子数组问题.swift */; };
 		52346E261F4D1D5C009E0054 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52346E251F4D1D5C009E0054 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		52076E471F4D1E7B00B5C931 /* 最大子数组问题.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "最大子数组问题.swift"; sourceTree = "<group>"; };
 		52346E221F4D1D5C009E0054 /* IntroductionToAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntroductionToAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		52346E251F4D1D5C009E0054 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52076E461F4D1E5500B5C931 /* NO.4 分治策略 */ = {
+			isa = PBXGroup;
+			children = (
+				52076E471F4D1E7B00B5C931 /* 最大子数组问题.swift */,
+			);
+			path = "NO.4 分治策略";
+			sourceTree = "<group>";
+		};
 		52346E191F4D1D5C009E0054 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				52346E251F4D1D5C009E0054 /* main.swift */,
+				52076E461F4D1E5500B5C931 /* NO.4 分治策略 */,
 			);
 			path = IntroductionToAlgorithms;
 			sourceTree = "<group>";
@@ -122,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52346E261F4D1D5C009E0054 /* main.swift in Sources */,
+				52076E481F4D1E7B00B5C931 /* 最大子数组问题.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +267,7 @@
 				52346E2B1F4D1D5C009E0054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

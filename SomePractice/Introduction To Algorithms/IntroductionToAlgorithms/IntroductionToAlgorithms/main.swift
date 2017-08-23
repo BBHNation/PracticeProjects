@@ -7,6 +7,13 @@
 //
 
 import Foundation
+let strategy = 最大子数组分治算法()
+var a = 最大子数组问题(withStrategy: strategy)
+let arr = [1,-2,5,5,-12,3,6,10,-9,-3]
 
-print("Hello, World!")
+let date = Date()
+let (left, right, sum) = a.strategy.find_maximum_subarray(A: arr, low: 0, high: 9)
+print("time is : \(Date().timeIntervalSince(date)*1000.0)")
+
+print("左边边界：\(left), 右边边界：\(right),和：\(sum)")
 
