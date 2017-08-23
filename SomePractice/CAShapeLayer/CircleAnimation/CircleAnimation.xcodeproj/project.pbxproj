@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		52B415971F137010008AD0C9 /* CircleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B415951F137010008AD0C9 /* CircleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52B415BC1F137104008AD0C9 /* DrewCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B415BB1F137104008AD0C9 /* DrewCircleView.swift */; };
+		52B415BC1F137104008AD0C9 /* DrawCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B415BB1F137104008AD0C9 /* DrawCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52B415921F137010008AD0C9 /* CircleAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B415951F137010008AD0C9 /* CircleAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleAnimation.h; sourceTree = "<group>"; };
 		52B415961F137010008AD0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52B415BB1F137104008AD0C9 /* DrewCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrewCircleView.swift; sourceTree = "<group>"; };
+		52B415BB1F137104008AD0C9 /* DrawCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			children = (
 				52B415951F137010008AD0C9 /* CircleAnimation.h */,
 				52B415961F137010008AD0C9 /* Info.plist */,
-				52B415BB1F137104008AD0C9 /* DrewCircleView.swift */,
+				52B415BB1F137104008AD0C9 /* DrawCircleView.swift */,
 			);
 			path = CircleAnimation;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B415BC1F137104008AD0C9 /* DrewCircleView.swift in Sources */,
+				52B415BC1F137104008AD0C9 /* DrawCircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

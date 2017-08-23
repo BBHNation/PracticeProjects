@@ -16,7 +16,7 @@ let redColor = UIColor.init(red: 1.0, green: 0.2, blue: 0.2, alpha: 1.0).cgColor
 let greenColor = UIColor.init(red: 0.2, green: 1.0, blue: 0.2, alpha: 1.0).cgColor
 let blueColor = UIColor.init(red: 0.2, green: 0.5, blue: 1.0, alpha: 1.0).cgColor
 
-public class DrewCircleView: UIView, CAAnimationDelegate {
+public class DrawCircleView: UIView, CAAnimationDelegate {
 
     var redCircleLayer: CALayer?
     var greenCircleLayer: CALayer?
@@ -35,7 +35,7 @@ public class DrewCircleView: UIView, CAAnimationDelegate {
         self.layer.addSublayer(circleLayerWith(color: blueColor_alpha, radius: length/2 - length*3/8, viewWidth: length, percent: 1.0))
         
         // 绘制上层Layers并添加动画
-        redCircleLayer = circleLayerWith(color: redColor, radius: length/2 - length/8, viewWidth: length, percent: 0.8).addCircleAnimation(duration: 3.0).1.addShadow()
+        redCircleLayer = circleLayerWith(color: redColor, radius: length/2 - length/8, viewWidth: length, percent: 1.0).addCircleAnimation(duration: 3.0).1.addShadow()
         greenCircleLayer = circleLayerWith(color: greenColor, radius: length/2 - length/4, viewWidth: length, percent: 0.7).addCircleAnimation(duration: 3.0).1.addShadow()
         blueCircleLayer = circleLayerWith(color: blueColor, radius: length/2 - length*3/8, viewWidth: length, percent: 0.9).addCircleAnimation(duration: 3.0).1.addShadow()
         
@@ -71,7 +71,7 @@ public class DrewCircleView: UIView, CAAnimationDelegate {
         return layer
     }
     
-    public func drewThreeCircleWith(redPercent: Double, greenPercent: Double, bluePercent: Double) {
+    public func drawThreeCircleWith(redPercent: Double, greenPercent: Double, bluePercent: Double) {
         
     }
 }

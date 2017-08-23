@@ -11,7 +11,7 @@ import CircleAnimation
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var circleView: DrewCircleView!
+    @IBOutlet weak var circleView: DrawCircleView!
     @IBOutlet weak var widthConstraint: NSLayoutConstraint!
     
     override func viewDidLoad() {
