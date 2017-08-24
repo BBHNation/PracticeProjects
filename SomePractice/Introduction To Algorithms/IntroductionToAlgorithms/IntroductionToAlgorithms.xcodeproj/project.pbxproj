@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		52076E481F4D1E7B00B5C931 /* 最大子数组问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52076E471F4D1E7B00B5C931 /* 最大子数组问题.swift */; };
 		52346E261F4D1D5C009E0054 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52346E251F4D1D5C009E0054 /* main.swift */; };
+		527CA1981F4EB653003D1D02 /* 堆排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CA1971F4EB653003D1D02 /* 堆排序.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		52076E471F4D1E7B00B5C931 /* 最大子数组问题.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "最大子数组问题.swift"; sourceTree = "<group>"; };
 		52346E221F4D1D5C009E0054 /* IntroductionToAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntroductionToAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		52346E251F4D1D5C009E0054 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		527CA1971F4EB653003D1D02 /* 堆排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "堆排序.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +70,18 @@
 			isa = PBXGroup;
 			children = (
 				52346E251F4D1D5C009E0054 /* main.swift */,
+				527CA1961F4EB653003D1D02 /* NO.6 堆排序 */,
 				52076E461F4D1E5500B5C931 /* NO.4 分治策略 */,
 			);
 			path = IntroductionToAlgorithms;
+			sourceTree = "<group>";
+		};
+		527CA1961F4EB653003D1D02 /* NO.6 堆排序 */ = {
+			isa = PBXGroup;
+			children = (
+				527CA1971F4EB653003D1D02 /* 堆排序.swift */,
+			);
+			path = "NO.6 堆排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527CA1981F4EB653003D1D02 /* 堆排序.swift in Sources */,
 				52346E261F4D1D5C009E0054 /* main.swift in Sources */,
 				52076E481F4D1E7B00B5C931 /* 最大子数组问题.swift in Sources */,
 			);
