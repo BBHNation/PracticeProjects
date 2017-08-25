@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		52076E481F4D1E7B00B5C931 /* 最大子数组问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52076E471F4D1E7B00B5C931 /* 最大子数组问题.swift */; };
 		52346E261F4D1D5C009E0054 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52346E251F4D1D5C009E0054 /* main.swift */; };
+		5246C0701F4FC704005DD827 /* 线性时间排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246C06F1F4FC704005DD827 /* 线性时间排序.swift */; };
 		527CA1981F4EB653003D1D02 /* 堆排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CA1971F4EB653003D1D02 /* 堆排序.swift */; };
+		52A908B41F4FAD0C00E362F9 /* 快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A908B31F4FAD0C00E362F9 /* 快速排序.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +30,9 @@
 		52076E471F4D1E7B00B5C931 /* 最大子数组问题.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "最大子数组问题.swift"; sourceTree = "<group>"; };
 		52346E221F4D1D5C009E0054 /* IntroductionToAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IntroductionToAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		52346E251F4D1D5C009E0054 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5246C06F1F4FC704005DD827 /* 线性时间排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "线性时间排序.swift"; sourceTree = "<group>"; };
 		527CA1971F4EB653003D1D02 /* 堆排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "堆排序.swift"; sourceTree = "<group>"; };
+		52A908B31F4FAD0C00E362F9 /* 快速排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "快速排序.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +74,20 @@
 			isa = PBXGroup;
 			children = (
 				52346E251F4D1D5C009E0054 /* main.swift */,
+				5246C06E1F4FC6F2005DD827 /* NO.8 线性时间排序 */,
+				52A908B21F4FACF600E362F9 /* NO.7 快速排序 */,
 				527CA1961F4EB653003D1D02 /* NO.6 堆排序 */,
 				52076E461F4D1E5500B5C931 /* NO.4 分治策略 */,
 			);
 			path = IntroductionToAlgorithms;
+			sourceTree = "<group>";
+		};
+		5246C06E1F4FC6F2005DD827 /* NO.8 线性时间排序 */ = {
+			isa = PBXGroup;
+			children = (
+				5246C06F1F4FC704005DD827 /* 线性时间排序.swift */,
+			);
+			path = "NO.8 线性时间排序";
 			sourceTree = "<group>";
 		};
 		527CA1961F4EB653003D1D02 /* NO.6 堆排序 */ = {
@@ -82,6 +96,14 @@
 				527CA1971F4EB653003D1D02 /* 堆排序.swift */,
 			);
 			path = "NO.6 堆排序";
+			sourceTree = "<group>";
+		};
+		52A908B21F4FACF600E362F9 /* NO.7 快速排序 */ = {
+			isa = PBXGroup;
+			children = (
+				52A908B31F4FAD0C00E362F9 /* 快速排序.swift */,
+			);
+			path = "NO.7 快速排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A908B41F4FAD0C00E362F9 /* 快速排序.swift in Sources */,
 				527CA1981F4EB653003D1D02 /* 堆排序.swift in Sources */,
 				52346E261F4D1D5C009E0054 /* main.swift in Sources */,
 				52076E481F4D1E7B00B5C931 /* 最大子数组问题.swift in Sources */,
+				5246C0701F4FC704005DD827 /* 线性时间排序.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

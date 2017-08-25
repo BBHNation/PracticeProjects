@@ -38,6 +38,20 @@ func 最大子数组测试() {
     print("左边边界：\(left), 右边边界：\(right),和：\(sum)")
 }
 
+func 快速排序测试() {
+    let quickSort = 快速排序()
+    var sourceArray = [2,3,1,5,12,32,9]
+    quickSort.quick_sort(A: &sourceArray, p: 0, r: 6)
+    print(sourceArray)
+}
 
-堆排序测试()
+func 线性排序测试() {
+    let xianxing = 线性时间排序()
+    var sourceArray = [2,3,1,5,12,32,9]
+    xianxing.计数排序(A: &sourceArray, k: 32)
+    print(sourceArray)
+}
+
+
+线性排序测试()
 
