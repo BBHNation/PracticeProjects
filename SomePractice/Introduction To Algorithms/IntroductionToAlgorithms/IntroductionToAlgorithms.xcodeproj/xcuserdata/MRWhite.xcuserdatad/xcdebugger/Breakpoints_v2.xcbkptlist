@@ -51,5 +51,21 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IntroductionToAlgorithms/NO.8 &#x7ebf;&#x6027;&#x65f6;&#x95f4;&#x6392;&#x5e8f;/&#x7ebf;&#x6027;&#x65f6;&#x95f4;&#x6392;&#x5e8f;.swift"
+            timestampString = "525343935.857551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "&#x6876;&#x6392;&#x5e8f;(A:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

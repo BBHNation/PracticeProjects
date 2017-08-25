@@ -47,9 +47,13 @@ func 快速排序测试() {
 
 func 线性排序测试() {
     let xianxing = 线性时间排序()
-    var sourceArray = [2,3,1,5,12,32,9]
-    xianxing.计数排序(A: &sourceArray, k: 32)
-    print(sourceArray)
+    var sourceArray = [0,2,3,1,5,12,32,9]
+//    xianxing.计数排序(A: &sourceArray, k: 32)
+    xianxing.基数排序(A: &sourceArray, d: 2)
+    
+    var floatArray = [0.13, 0.3, 0.5, 0.11, 0.12, 0.23, 0.56, 0.9]
+    xianxing.桶排序(A: &floatArray)
+    print(floatArray)
 }
 
 
