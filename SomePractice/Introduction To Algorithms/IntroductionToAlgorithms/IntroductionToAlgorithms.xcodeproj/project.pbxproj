@@ -12,6 +12,7 @@
 		5246C0701F4FC704005DD827 /* 线性时间排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5246C06F1F4FC704005DD827 /* 线性时间排序.swift */; };
 		527CA1981F4EB653003D1D02 /* 堆排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CA1971F4EB653003D1D02 /* 堆排序.swift */; };
 		52A908B41F4FAD0C00E362F9 /* 快速排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A908B31F4FAD0C00E362F9 /* 快速排序.swift */; };
+		52BE11481F62677A0043269F /* 动态规划.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BE11471F62677A0043269F /* 动态规划.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		5246C06F1F4FC704005DD827 /* 线性时间排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "线性时间排序.swift"; sourceTree = "<group>"; };
 		527CA1971F4EB653003D1D02 /* 堆排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "堆排序.swift"; sourceTree = "<group>"; };
 		52A908B31F4FAD0C00E362F9 /* 快速排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "快速排序.swift"; sourceTree = "<group>"; };
+		52BE11471F62677A0043269F /* 动态规划.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "动态规划.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		52346E241F4D1D5C009E0054 /* IntroductionToAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				52BE11461F62676E0043269F /* 算法图解 */,
 				52346E251F4D1D5C009E0054 /* main.swift */,
 				5246C06E1F4FC6F2005DD827 /* NO.8 线性时间排序 */,
 				52A908B21F4FACF600E362F9 /* NO.7 快速排序 */,
@@ -104,6 +107,14 @@
 				52A908B31F4FAD0C00E362F9 /* 快速排序.swift */,
 			);
 			path = "NO.7 快速排序";
+			sourceTree = "<group>";
+		};
+		52BE11461F62676E0043269F /* 算法图解 */ = {
+			isa = PBXGroup;
+			children = (
+				52BE11471F62677A0043269F /* 动态规划.swift */,
+			);
+			path = "算法图解";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +181,7 @@
 				52346E261F4D1D5C009E0054 /* main.swift in Sources */,
 				52076E481F4D1E7B00B5C931 /* 最大子数组问题.swift in Sources */,
 				5246C0701F4FC704005DD827 /* 线性时间排序.swift in Sources */,
+				52BE11481F62677A0043269F /* 动态规划.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
