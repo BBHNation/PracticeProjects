@@ -8,27 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		5292C3141F6F7B4200EDCA7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292C3131F6F7B4200EDCA7C /* AppDelegate.swift */; };
-		5292C3161F6F7B4200EDCA7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292C3151F6F7B4200EDCA7C /* ViewController.swift */; };
 		5292C3191F6F7B4200EDCA7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5292C3171F6F7B4200EDCA7C /* Main.storyboard */; };
 		5292C31B1F6F7B4200EDCA7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5292C31A1F6F7B4200EDCA7C /* Assets.xcassets */; };
 		5292C31E1F6F7B4200EDCA7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5292C31C1F6F7B4200EDCA7C /* LaunchScreen.storyboard */; };
 		5292C3261F6F7B5200EDCA7C /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5292C3251F6F7B4D00EDCA7C /* MobileNet.mlmodel */; };
 		5292C3281F6F9C9800EDCA7C /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292C3271F6F9C9800EDCA7C /* ImageProcessor.swift */; };
-		5292C32A1F6F9FF300EDCA7C /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5292C3291F6F9FD700EDCA7C /* Resnet50.mlmodel */; };
 		5292C32C1F6FA42600EDCA7C /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292C32B1F6FA42600EDCA7C /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5292C3101F6F7B4200EDCA7C /* Core ML Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core ML Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5292C3131F6F7B4200EDCA7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5292C3151F6F7B4200EDCA7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5292C3181F6F7B4200EDCA7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5292C31A1F6F7B4200EDCA7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5292C31D1F6F7B4200EDCA7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5292C31F1F6F7B4200EDCA7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5292C3251F6F7B4D00EDCA7C /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		5292C3271F6F9C9800EDCA7C /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
-		5292C3291F6F9FD700EDCA7C /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		5292C32B1F6FA42600EDCA7C /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,11 +58,9 @@
 		5292C3121F6F7B4200EDCA7C /* Core ML Demo */ = {
 			isa = PBXGroup;
 			children = (
-				5292C3291F6F9FD700EDCA7C /* Resnet50.mlmodel */,
 				5292C3271F6F9C9800EDCA7C /* ImageProcessor.swift */,
 				5292C3251F6F7B4D00EDCA7C /* MobileNet.mlmodel */,
 				5292C3131F6F7B4200EDCA7C /* AppDelegate.swift */,
-				5292C3151F6F7B4200EDCA7C /* ViewController.swift */,
 				5292C32B1F6FA42600EDCA7C /* PhotoViewController.swift */,
 				5292C3171F6F7B4200EDCA7C /* Main.storyboard */,
 				5292C31A1F6F7B4200EDCA7C /* Assets.xcassets */,
@@ -148,8 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5292C32A1F6F9FF300EDCA7C /* Resnet50.mlmodel in Sources */,
-				5292C3161F6F7B4200EDCA7C /* ViewController.swift in Sources */,
 				5292C3141F6F7B4200EDCA7C /* AppDelegate.swift in Sources */,
 				5292C3281F6F9C9800EDCA7C /* ImageProcessor.swift in Sources */,
 				5292C3261F6F7B5200EDCA7C /* MobileNet.mlmodel in Sources */,

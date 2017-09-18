@@ -9,7 +9,7 @@
 import UIKit
 
 class PhotoViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
-    let mlmodel = Resnet50()
+    let mlmodel = MobileNet()
     @IBOutlet weak var contentImage: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBAction func choose(_ sender: Any) {
