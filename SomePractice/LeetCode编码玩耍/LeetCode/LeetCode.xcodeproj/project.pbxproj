@@ -15,6 +15,7 @@
 		527ED3B31EB60F330047AC0E /* AddTwoNumbers2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ED3B21EB60F330047AC0E /* AddTwoNumbers2.swift */; };
 		527ED3B51EB6384B0047AC0E /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ED3B41EB6384B0047AC0E /* ListNode.swift */; };
 		52BB0CA41EC2F9F900436B04 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB0CA31EC2F9F900436B04 /* TwoSum.swift */; };
+		52FD28661F6BA1380041F1F7 /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD28651F6BA1380041F1F7 /* LongestPalindromicSubstring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		527ED3B21EB60F330047AC0E /* AddTwoNumbers2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers2.swift; sourceTree = "<group>"; };
 		527ED3B41EB6384B0047AC0E /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		52BB0CA31EC2F9F900436B04 /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		52FD28651F6BA1380041F1F7 /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				522958691EC1B426005B2C26 /* MedianOfTwoSortedArrays.swift */,
 				52BB0CA31EC2F9F900436B04 /* TwoSum.swift */,
 				521CA0A21EC7FBB600593561 /* FourSumCount.swift */,
+				52FD28651F6BA1380041F1F7 /* LongestPalindromicSubstring.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FD28661F6BA1380041F1F7 /* LongestPalindromicSubstring.swift in Sources */,
 				527ED3B31EB60F330047AC0E /* AddTwoNumbers2.swift in Sources */,
 				524A34121EB341E400C81232 /* main.swift in Sources */,
 				524A341A1EB3437A00C81232 /* AddTwoNumbers.swift in Sources */,

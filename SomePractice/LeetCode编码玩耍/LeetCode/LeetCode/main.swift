@@ -8,5 +8,5 @@
 
 import Foundation
 
-let solve = FourSumCount()
-solve.main()
+let test = LongestPalindromicSubstring()
+print(test.longestPalindrome("babad"))

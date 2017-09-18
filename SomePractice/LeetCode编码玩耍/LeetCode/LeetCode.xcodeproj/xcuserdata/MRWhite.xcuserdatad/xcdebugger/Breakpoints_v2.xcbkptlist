@@ -22,31 +22,31 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "LeetCode.AddTwoNumbers.Solution.addTwoNumbers (Swift.Optional&lt;LeetCode.ListNode&gt;, Swift.Optional&lt;LeetCode.ListNode&gt;) -&gt; Swift.Optional&lt;LeetCode.ListNode&gt;"
+                  symbolName = "LeetCode.AddTwoNumbers.Solution.addTwoNumbers(Swift.Optional&lt;LeetCode.ListNode&gt;, Swift.Optional&lt;LeetCode.ListNode&gt;) -&gt; Swift.Optional&lt;LeetCode.ListNode&gt;"
                   moduleName = "LeetCode"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/MRwhite/Library/Mobile%20Documents/com~apple~CloudDocs/GitStuff/SomePractice/LeetCode%E7%BC%96%E7%A0%81%E7%8E%A9%E8%80%8D/LeetCode/LeetCode/AddTwoNumbers.swift"
-                  timestampString = "516435139.146848"
+                  urlString = "file:///Users/MRWhite/Library/Mobile%20Documents/com~apple~CloudDocs/GitStuff/SomePractice/LeetCode%E7%BC%96%E7%A0%81%E7%8E%A9%E8%80%8D/LeetCode/LeetCode/AddTwoNumbers.swift"
+                  timestampString = "527152156.467239"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
                   endingLineNumber = "33"
-                  offsetFromSymbolStart = "377">
+                  offsetFromSymbolStart = "379">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "LeetCode.AddTwoNumbers.Solution.addTwoNumbers (Swift.Optional&lt;LeetCode.ListNode&gt;, Swift.Optional&lt;LeetCode.ListNode&gt;) -&gt; Swift.Optional&lt;LeetCode.ListNode&gt;"
+                  symbolName = "LeetCode.AddTwoNumbers.Solution.addTwoNumbers(Swift.Optional&lt;LeetCode.ListNode&gt;, Swift.Optional&lt;LeetCode.ListNode&gt;) -&gt; Swift.Optional&lt;LeetCode.ListNode&gt;"
                   moduleName = "LeetCode"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/MRwhite/Library/Mobile%20Documents/com~apple~CloudDocs/GitStuff/SomePractice/LeetCode%E7%BC%96%E7%A0%81%E7%8E%A9%E8%80%8D/LeetCode/LeetCode/AddTwoNumbers.swift"
-                  timestampString = "516435139.149754"
+                  urlString = "file:///Users/MRWhite/Library/Mobile%20Documents/com~apple~CloudDocs/GitStuff/SomePractice/LeetCode%E7%BC%96%E7%A0%81%E7%8E%A9%E8%80%8D/LeetCode/LeetCode/AddTwoNumbers.swift"
+                  timestampString = "527152156.469045"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
                   endingLineNumber = "33"
-                  offsetFromSymbolStart = "3971">
+                  offsetFromSymbolStart = "4199">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -97,6 +97,54 @@
             endingLineNumber = "41"
             landmarkName = "lengthOfLongestSubstring(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/LongestPalindromicSubstring.swift"
+            timestampString = "527152156.130694"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "longestPalindrome(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetCode.LongestPalindromicSubstring.longestPalindrome(Swift.String) -&gt; Swift.String"
+                  moduleName = "LeetCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MRWhite/Library/Mobile%20Documents/com~apple~CloudDocs/GitStuff/SomePractice/LeetCode%E7%BC%96%E7%A0%81%E7%8E%A9%E8%80%8D/LeetCode/LeetCode/LongestPalindromicSubstring.swift"
+                  timestampString = "527152156.484938"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "2801">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Character) -&gt; Swift.Bool in LeetCode.LongestPalindromicSubstring.longestPalindrome(Swift.String) -&gt; Swift.String"
+                  moduleName = "LeetCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MRWhite/Library/Mobile%20Documents/com~apple~CloudDocs/GitStuff/SomePractice/LeetCode%E7%BC%96%E7%A0%81%E7%8E%A9%E8%80%8D/LeetCode/LeetCode/LongestPalindromicSubstring.swift"
+                  timestampString = "527152156.486578"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

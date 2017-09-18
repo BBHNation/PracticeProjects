@@ -45,8 +45,8 @@ class MedianTwoSortedArrays {
      这时候使用binarySearch，则可以达到O（Log（m+n））的复杂度
      */
     func main() {
-        var nums1 = [1, 3]
-        var nums2 = [2]
+        let nums1 = [1, 3]
+        let nums2 = [2]
         print(findMedianSortedArrays(nums1, nums2))
     }
     
