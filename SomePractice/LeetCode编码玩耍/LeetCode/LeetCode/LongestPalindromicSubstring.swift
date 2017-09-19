@@ -41,7 +41,8 @@ class LongestPalindromicSubstring {
                 MaxRight = RL[i] + i - 1
                 pos = i
             }
-            MaxLen = max(MaxLen, RL[i])
+//            MaxLen = max(MaxLen, RL[i])
+            MaxLen = 1
             
             // 长度是MaxLen-1, 中点是pos, 开始点是 2*maxRight - Pos
         }

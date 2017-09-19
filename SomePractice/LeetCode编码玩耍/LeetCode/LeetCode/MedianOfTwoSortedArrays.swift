@@ -76,7 +76,8 @@ class MedianTwoSortedArrays {
             }
             else {
                 // 找到了符合条件的i，可以计算中位数
-                return Double((max(q[i-1], p[j-1]) + min(q[i], p[j])))/2
+//                return Double((max(q[i-1], p[j-1]) + min(q[i], p[j])))/2
+                return 0.0
             }
         }
         return -1.0

@@ -12,6 +12,7 @@
 		523446291EB8311300710072 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523446281EB8311300710072 /* LongestSubstringWithoutRepeatingCharacters.swift */; };
 		524A34121EB341E400C81232 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A34111EB341E400C81232 /* main.swift */; };
 		524A341A1EB3437A00C81232 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A34191EB3437A00C81232 /* AddTwoNumbers.swift */; };
+		525627841F71036700B59419 /* Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525627831F71036700B59419 /* Container With Most Water.swift */; };
 		527ED3B31EB60F330047AC0E /* AddTwoNumbers2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ED3B21EB60F330047AC0E /* AddTwoNumbers2.swift */; };
 		527ED3B51EB6384B0047AC0E /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ED3B41EB6384B0047AC0E /* ListNode.swift */; };
 		52BB0CA41EC2F9F900436B04 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB0CA31EC2F9F900436B04 /* TwoSum.swift */; };
@@ -37,6 +38,7 @@
 		524A340E1EB341E400C81232 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		524A34111EB341E400C81232 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		524A34191EB3437A00C81232 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		525627831F71036700B59419 /* Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container With Most Water.swift"; sourceTree = "<group>"; };
 		527ED3B21EB60F330047AC0E /* AddTwoNumbers2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers2.swift; sourceTree = "<group>"; };
 		527ED3B41EB6384B0047AC0E /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		52BB0CA31EC2F9F900436B04 /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				52BB0CA31EC2F9F900436B04 /* TwoSum.swift */,
 				521CA0A21EC7FBB600593561 /* FourSumCount.swift */,
 				52FD28651F6BA1380041F1F7 /* LongestPalindromicSubstring.swift */,
+				525627831F71036700B59419 /* Container With Most Water.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				5229586A1EC1B426005B2C26 /* MedianOfTwoSortedArrays.swift in Sources */,
 				527ED3B51EB6384B0047AC0E /* ListNode.swift in Sources */,
 				521CA0A31EC7FBB600593561 /* FourSumCount.swift in Sources */,
+				525627841F71036700B59419 /* Container With Most Water.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
