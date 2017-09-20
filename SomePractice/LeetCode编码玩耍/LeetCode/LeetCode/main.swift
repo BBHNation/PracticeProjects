@@ -8,7 +8,7 @@
 
 import Foundation
 
-let height = [1,2,4,3]
-let max = Container_With_Most_Water.maxArea(height)
+
+let max = ThreeSum.threeSum([-2,0,1,1,2])
 print(max)
 
