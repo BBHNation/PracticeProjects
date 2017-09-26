@@ -12,11 +12,13 @@
 		523446291EB8311300710072 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523446281EB8311300710072 /* LongestSubstringWithoutRepeatingCharacters.swift */; };
 		524A34121EB341E400C81232 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A34111EB341E400C81232 /* main.swift */; };
 		524A341A1EB3437A00C81232 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A34191EB3437A00C81232 /* AddTwoNumbers.swift */; };
+		5254290B1F7A27F800459BDC /* Remove Nth Node From End of List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5254290A1F7A27F800459BDC /* Remove Nth Node From End of List.swift */; };
 		525627841F71036700B59419 /* Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525627831F71036700B59419 /* Container With Most Water.swift */; };
 		527ED3B31EB60F330047AC0E /* AddTwoNumbers2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ED3B21EB60F330047AC0E /* AddTwoNumbers2.swift */; };
 		527ED3B51EB6384B0047AC0E /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ED3B41EB6384B0047AC0E /* ListNode.swift */; };
 		52BB0CA41EC2F9F900436B04 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB0CA31EC2F9F900436B04 /* TwoSum.swift */; };
 		52D39EE21F7204A70051EB98 /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D39EE11F7204A70051EB98 /* 3Sum.swift */; };
+		52DA43191F7733C000585664 /* Letter Combinations of a Phone Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA43181F7733C000585664 /* Letter Combinations of a Phone Number.swift */; };
 		52FD28661F6BA1380041F1F7 /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD28651F6BA1380041F1F7 /* LongestPalindromicSubstring.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,11 +41,13 @@
 		524A340E1EB341E400C81232 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		524A34111EB341E400C81232 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		524A34191EB3437A00C81232 /* AddTwoNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
+		5254290A1F7A27F800459BDC /* Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
 		525627831F71036700B59419 /* Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container With Most Water.swift"; sourceTree = "<group>"; };
 		527ED3B21EB60F330047AC0E /* AddTwoNumbers2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers2.swift; sourceTree = "<group>"; };
 		527ED3B41EB6384B0047AC0E /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		52BB0CA31EC2F9F900436B04 /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		52D39EE11F7204A70051EB98 /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
+		52DA43181F7733C000585664 /* Letter Combinations of a Phone Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Letter Combinations of a Phone Number.swift"; sourceTree = "<group>"; };
 		52FD28651F6BA1380041F1F7 /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +92,8 @@
 				52FD28651F6BA1380041F1F7 /* LongestPalindromicSubstring.swift */,
 				525627831F71036700B59419 /* Container With Most Water.swift */,
 				52D39EE11F7204A70051EB98 /* 3Sum.swift */,
+				52DA43181F7733C000585664 /* Letter Combinations of a Phone Number.swift */,
+				5254290A1F7A27F800459BDC /* Remove Nth Node From End of List.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -152,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52FD28661F6BA1380041F1F7 /* LongestPalindromicSubstring.swift in Sources */,
+				5254290B1F7A27F800459BDC /* Remove Nth Node From End of List.swift in Sources */,
 				52D39EE21F7204A70051EB98 /* 3Sum.swift in Sources */,
 				527ED3B31EB60F330047AC0E /* AddTwoNumbers2.swift in Sources */,
 				524A34121EB341E400C81232 /* main.swift in Sources */,
@@ -160,6 +167,7 @@
 				523446291EB8311300710072 /* LongestSubstringWithoutRepeatingCharacters.swift in Sources */,
 				5229586A1EC1B426005B2C26 /* MedianOfTwoSortedArrays.swift in Sources */,
 				527ED3B51EB6384B0047AC0E /* ListNode.swift in Sources */,
+				52DA43191F7733C000585664 /* Letter Combinations of a Phone Number.swift in Sources */,
 				521CA0A31EC7FBB600593561 /* FourSumCount.swift in Sources */,
 				525627841F71036700B59419 /* Container With Most Water.swift in Sources */,
 			);
