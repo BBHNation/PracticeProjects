@@ -8,7 +8,7 @@
 
 import Foundation
 
-let head = ListNode(-1)
-print(Remove_Nth_Node_From_End_of_List.removeNthFromEnd(head, 3)?.val ?? ListNode(-2).val)
+let head = Merge_Two_Sorted_Lists()
 
-print("end")
+print(head.mergeTwoLists(ListNode(2), ListNode(1)))
+
