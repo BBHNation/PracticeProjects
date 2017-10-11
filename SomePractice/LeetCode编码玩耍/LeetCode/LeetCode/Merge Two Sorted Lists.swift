@@ -16,49 +16,14 @@ class Merge_Two_Sorted_Lists: NSObject {
             return l1
         }
         
-        var newHead: ListNode?
-        var move: ListNode?
-        var newL1 = l1
-        var newL2 = l2
-        while newL1 != nil && newL2 != nil {
-            if (newL1?.val)! > (newL2?.val)! {
-                if newHead == nil {
-                    newHead = newL2!
-                    move = newHead
-                } else {
-                    move!.next = newL2
-                    move = move!.next!
-                }
-                move?.next = newL1
-                move = move?.next
-            } else {
-                if newHead == nil {
-                    newHead = newL1!
-                    move = newHead
-                } else {
-                    move!.next = newL1
-                    move = move!.next!
-                }
-                move?.next = newL2
-                move = move?.next
-            }
-            newL1 = newL1?.next
-            newL2 = newL2?.next
+        if (l1?.val)! > (l2?.val)! {
+            let newNode = ListNode((l2?.val)!)
+            newNode.next = mergeTwoLists(l1, l2?.next)
+            return newNode
+        } else {
+            let newNode = ListNode((l1?.val)!)
+            newNode.next = mergeTwoLists(l1?.next, l2)
+            return newNode
         }
-        
-        if newL1 == nil {
-            while newL2 != nil {
-                move?.next = newL2
-                move = move?.next
-                newL2 = newL2?.next
-            }
-        } else if newL2 == nil {
-            while newL1 != nil {
-                move?.next = newL1
-                move = move?.next
-                newL1 = newL1?.next
-            }
-        }
-        return newHead!
     }
 }

@@ -10,5 +10,6 @@ import Foundation
 
 let head = Merge_Two_Sorted_Lists()
 
-print(head.mergeTwoLists(ListNode(2), ListNode(1)))
+let node = head.mergeTwoLists(ListNode(2), ListNode(1))
+print("ok")
 
