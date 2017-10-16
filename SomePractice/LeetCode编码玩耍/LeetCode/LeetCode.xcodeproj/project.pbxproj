@@ -18,6 +18,7 @@
 		527ED3B31EB60F330047AC0E /* AddTwoNumbers2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ED3B21EB60F330047AC0E /* AddTwoNumbers2.swift */; };
 		527ED3B51EB6384B0047AC0E /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ED3B41EB6384B0047AC0E /* ListNode.swift */; };
 		5291E0701F8076D70003DDBC /* Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291E06F1F8076D70003DDBC /* Merge Two Sorted Lists.swift */; };
+		52A642581F8DB95B00498BBB /* Generate Parentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A642571F8DB95B00498BBB /* Generate Parentheses.swift */; };
 		52BB0CA41EC2F9F900436B04 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BB0CA31EC2F9F900436B04 /* TwoSum.swift */; };
 		52D39EE21F7204A70051EB98 /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D39EE11F7204A70051EB98 /* 3Sum.swift */; };
 		52DA43191F7733C000585664 /* Letter Combinations of a Phone Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA43181F7733C000585664 /* Letter Combinations of a Phone Number.swift */; };
@@ -49,6 +50,7 @@
 		527ED3B21EB60F330047AC0E /* AddTwoNumbers2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers2.swift; sourceTree = "<group>"; };
 		527ED3B41EB6384B0047AC0E /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		5291E06F1F8076D70003DDBC /* Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
+		52A642571F8DB95B00498BBB /* Generate Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Generate Parentheses.swift"; sourceTree = "<group>"; };
 		52BB0CA31EC2F9F900436B04 /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		52D39EE11F7204A70051EB98 /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
 		52DA43181F7733C000585664 /* Letter Combinations of a Phone Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Letter Combinations of a Phone Number.swift"; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				5254290A1F7A27F800459BDC /* Remove Nth Node From End of List.swift */,
 				521F0C641F7E1CDA00879AF3 /* Valid Parentheses.swift */,
 				5291E06F1F8076D70003DDBC /* Merge Two Sorted Lists.swift */,
+				52A642571F8DB95B00498BBB /* Generate Parentheses.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				52FD28661F6BA1380041F1F7 /* LongestPalindromicSubstring.swift in Sources */,
 				5291E0701F8076D70003DDBC /* Merge Two Sorted Lists.swift in Sources */,
+				52A642581F8DB95B00498BBB /* Generate Parentheses.swift in Sources */,
 				5254290B1F7A27F800459BDC /* Remove Nth Node From End of List.swift in Sources */,
 				52D39EE21F7204A70051EB98 /* 3Sum.swift in Sources */,
 				527ED3B31EB60F330047AC0E /* AddTwoNumbers2.swift in Sources */,
