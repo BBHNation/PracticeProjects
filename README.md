@@ -8,5 +8,6 @@
 - 字典和Entity转换
 - CoreAnimation
 - 函数式Swift
+- 扫描二维码的原生实现
 
 还包括一些Copy的他人项目来学习。
