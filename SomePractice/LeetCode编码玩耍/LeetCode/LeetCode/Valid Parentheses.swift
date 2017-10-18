@@ -15,7 +15,7 @@ public class Stack <T> {
         stack.append(value)
     }
     
-    public func pop() -> T? {
+    @discardableResult public func pop() -> T? {
         if stack.count >= 1 {
             return stack.removeLast()
         }
@@ -24,6 +24,10 @@ public class Stack <T> {
     
     public func peek() -> T? {
         return stack.last
+    }
+    
+    public func empty() -> Bool {
+        return stack.count == 0
     }
     
 }
