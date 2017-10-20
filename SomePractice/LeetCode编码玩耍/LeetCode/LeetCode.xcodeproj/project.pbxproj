@@ -18,6 +18,7 @@
 		525627841F71036700B59419 /* Container With Most Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525627831F71036700B59419 /* Container With Most Water.swift */; };
 		527ED3B31EB60F330047AC0E /* AddTwoNumbers2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ED3B21EB60F330047AC0E /* AddTwoNumbers2.swift */; };
 		527ED3B51EB6384B0047AC0E /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527ED3B41EB6384B0047AC0E /* ListNode.swift */; };
+		528A935D1F99D33400EC4561 /* Search for a Range34.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A935C1F99D33400EC4561 /* Search for a Range34.swift */; };
 		528D653C1F96E33500A2EBB1 /* Next Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D653B1F96E33500A2EBB1 /* Next Permutation.swift */; };
 		528D653E1F96F23400A2EBB1 /* Longest Valid Parentheses32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528D653D1F96F23400A2EBB1 /* Longest Valid Parentheses32.swift */; };
 		5291E0701F8076D70003DDBC /* Merge Two Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291E06F1F8076D70003DDBC /* Merge Two Sorted Lists.swift */; };
@@ -54,6 +55,7 @@
 		525627831F71036700B59419 /* Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Container With Most Water.swift"; sourceTree = "<group>"; };
 		527ED3B21EB60F330047AC0E /* AddTwoNumbers2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers2.swift; sourceTree = "<group>"; };
 		527ED3B41EB6384B0047AC0E /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		528A935C1F99D33400EC4561 /* Search for a Range34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search for a Range34.swift"; sourceTree = "<group>"; };
 		528D653B1F96E33500A2EBB1 /* Next Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Next Permutation.swift"; sourceTree = "<group>"; };
 		528D653D1F96F23400A2EBB1 /* Longest Valid Parentheses32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Valid Parentheses32.swift"; sourceTree = "<group>"; };
 		5291E06F1F8076D70003DDBC /* Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				52A642571F8DB95B00498BBB /* Generate Parentheses.swift */,
 				528D653D1F96F23400A2EBB1 /* Longest Valid Parentheses32.swift */,
 				52431A7A1F9833B700DFE704 /* Search in Rotated Sorted Array33.swift */,
+				528A935C1F99D33400EC4561 /* Search for a Range34.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				5254290B1F7A27F800459BDC /* Remove Nth Node From End of List.swift in Sources */,
 				52D39EE21F7204A70051EB98 /* 3Sum.swift in Sources */,
 				527ED3B31EB60F330047AC0E /* AddTwoNumbers2.swift in Sources */,
+				528A935D1F99D33400EC4561 /* Search for a Range34.swift in Sources */,
 				524A34121EB341E400C81232 /* main.swift in Sources */,
 				524A341A1EB3437A00C81232 /* AddTwoNumbers.swift in Sources */,
 				521F0C651F7E1CDA00879AF3 /* Valid Parentheses.swift in Sources */,

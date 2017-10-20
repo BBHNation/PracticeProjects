@@ -8,9 +8,5 @@
 
 import Foundation
 
-
-
-
-let arr = [1,3]
-let a = search(arr, 0)
-print(a)
+let solution = Search_for_a_Range34()
+print(solution.searchRange([], 8))
