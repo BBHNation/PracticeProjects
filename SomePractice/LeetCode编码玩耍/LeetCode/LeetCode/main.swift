@@ -9,4 +9,4 @@
 import Foundation
 
 let solution = Search_for_a_Range34()
-print(solution.searchRange([], 8))
+print(solution.searchRange([1], 8))

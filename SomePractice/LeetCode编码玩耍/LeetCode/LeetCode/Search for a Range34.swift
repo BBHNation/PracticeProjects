@@ -39,6 +39,9 @@ class Search_for_a_Range34: NSObject {
     
     func binarySearch(nums: [Int], target: Int, low: Int, high: Int) -> Int {
         let mid = (high - low)/2 + low // 向下取整
+        if mid > nums.count-1 {
+            return -1
+        }
         if nums[mid] == target {
             return mid
         } else if target < nums[mid] {
