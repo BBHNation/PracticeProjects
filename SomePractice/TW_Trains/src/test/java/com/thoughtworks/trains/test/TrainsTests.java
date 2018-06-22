@@ -5,6 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 import java.util.Arrays;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -48,11 +49,10 @@ public class TrainsTests {
     }
 
     @Test
-    public void testOthers() {
-        Town<String> t = new Town<>("H");
-        AtomicInteger counter = new AtomicInteger(0);
-        trainsRoutes.countTripsWithStops(t,t,false,3,counter);
-        assertEquals(counter.intValue(), 3);
+    public void testMaxStopsAndExactlyStops() {
+        Town<String> t = new Town<>("C");
+        String result = trainsRoutes.numberOfTripsWithMaxStops(t,t,3);
+        assertEquals(result, "2");
     }
 
 }

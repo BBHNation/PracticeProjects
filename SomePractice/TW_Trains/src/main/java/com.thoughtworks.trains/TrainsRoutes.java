@@ -1,9 +1,6 @@
 package com.thoughtworks.trains;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class TrainsRoutes {
@@ -81,18 +78,34 @@ public class TrainsRoutes {
 
     public String numberOfTripsWithMaxStops(Town<String> start, Town<String> end, int maxStops) {
         if (maxStops <= 0) { return "0"; }
-        return "0";
+        AtomicInteger counter = new AtomicInteger(0);
+        Deque<Route> routeQueue = new LinkedList<>();
+        countTripsWithStops(start, end, true, maxStops, routeQueue, counter);
+        return counter.toString();
     }
 
     public String numberOfTripsWithExactlyStops(Town<String> start, Town<String> end, int exactlyStops) {
         if (exactlyStops <= 0) { return "0"; }
-        return "0";
+        AtomicInteger counter = new AtomicInteger(0);
+        Deque<Route> routeQueue = new LinkedList<>();
+        countTripsWithStops(start, end, true, exactlyStops, routeQueue, counter);
+        return counter.toString();
     }
 
-    public void countTripsWithStops(Town<String> start, Town<String> end, boolean isMaxStop, int stops, AtomicInteger counter) {
-        if (stops > 0) {
-            counter.incrementAndGet();
-            countTripsWithStops(start, end, isMaxStop, stops-1, counter);
+    public void countTripsWithStops(Town<String> start, Town<String> end, boolean isMaxStop, int stops, Deque<Route> routeQueue, AtomicInteger counter) {
+        if (routeQueue.size() < stops) {
+            Town<String> nextTown = null;
+            List<Route> routes = trainsMap.get(start);
+            for (Route route : routes) {
+                nextTown = route.getDestinationTown();
+                boolean policy = isMaxStop ? (nextTown.equals(end)) : (nextTown.equals(end) && routeQueue.size()==stops-1);
+                if (policy) {
+                    counter.incrementAndGet();
+                }
+                routeQueue.addLast(route);
+                countTripsWithStops(nextTown, end, isMaxStop, stops-1, routeQueue, counter);
+                routeQueue.removeLast();
+            }
         }
     }
 
