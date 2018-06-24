@@ -1,5 +1,6 @@
 package com.thoughtworks.util;
 
+import javax.naming.CannotProceedException;
 import java.util.*;
 
 public class TWDirectedGraph<T> {
@@ -7,7 +8,7 @@ public class TWDirectedGraph<T> {
 	 * 这里是Node不可获取时候抛出的错误
 	 */
 	public static class CanNotGetToNodeException extends Exception {
-		public CanNotGetToNodeException(String message) {
+		CanNotGetToNodeException(String message) {
 			super(message);
 		}
 	}
@@ -16,7 +17,7 @@ public class TWDirectedGraph<T> {
      * 这里是在图中没有这个节点所抛出的错误
      */
 	public static class NoSuchNodeException extends Exception {
-	    public NoSuchNodeException(String message) {
+	    NoSuchNodeException(String message) {
 	        super(message);
         }
     }
@@ -25,7 +26,7 @@ public class TWDirectedGraph<T> {
      * 这里是函数输入有误所抛出的错误
      */
     public static class InputIllegalException extends Exception {
-	    public InputIllegalException(String message) {
+	    InputIllegalException(String message) {
 	        super(message);
         }
     }
@@ -46,26 +47,26 @@ public class TWDirectedGraph<T> {
 		private T data;
 		private Integer distance;
 		private GraphNode previousNode;
-		protected Map<T, Integer> neighbours; // TODO
+		Map<T, Integer> neighbours; // TODO
 
-		public GraphNode(T data) {
+		GraphNode(T data) {
 			this.data = data;
 			// 初始化时候Node只包含数据data，没有邻居节点的信息
 			this.neighbours = new HashMap<T, Integer>();
 		}
 
 		// Setter and Getter
-		public T getData() { return data; }
+		T getData() { return data; }
 
-		public Integer getDistance() { return distance; } 
+		Integer getDistance() { return distance; }
 
-		public void setDistance(Integer distance) { this.distance = distance; }
+		void setDistance(Integer distance) { this.distance = distance; }
 
-		public GraphNode getPreviousNode() { return previousNode; }
+		GraphNode getPreviousNode() { return previousNode; }
 
-		public void setPreviousNode(GraphNode previousNode) { this.previousNode = previousNode; }
+		void setPreviousNode(GraphNode previousNode) { this.previousNode = previousNode; }
 
-		public Map<T, Integer> getNetghbourNodes() { return neighbours; }
+		Map<T, Integer> getNetghbourNodes() { return neighbours; }
 
 		// 与另外的节点比较，实际比较的是距离
 		public int compareTo(GraphNode node) {
@@ -82,7 +83,7 @@ public class TWDirectedGraph<T> {
          * @param startNode 开始节点
          * @return 返回从startNode 到 this node的GraphPath
          */
-		public GraphPath getAllPreviousPath(GraphNode startNode) {
+        GraphPath getAllPreviousPath(GraphNode startNode) {
 		    List<T> nodes = new LinkedList<>();
 		    Integer distance = 0;
 		    GraphNode currentNode = this;
@@ -136,7 +137,7 @@ public class TWDirectedGraph<T> {
 			}
 		}
 
-		public List<T> getNodes() {
+		List<T> getNodes() {
 		    return nodes;
         }
 
@@ -154,7 +155,7 @@ public class TWDirectedGraph<T> {
 		 * @param distanceToLastNode 倒数第二个节点到最后一个节点的距离
 		 * @return 如果删除成功返回true，失败返回false
 		 */
-		public boolean removeLastNode(Integer distanceToLastNode) {
+		boolean removeLastNode(Integer distanceToLastNode) {
 			if (!this.nodes.isEmpty()) {
 				this.distance -= distanceToLastNode;
 				this.nodes.remove(this.nodes.size() - 1);
@@ -170,7 +171,7 @@ public class TWDirectedGraph<T> {
 		 * @param distance 到达该节点的距离
 		 * @return 添加成功返回true，失败返回false
 		 */
-		public boolean appendNode(T node, Integer distance) {
+		boolean appendNode(T node, Integer distance) {
 			this.distance += distance;
 			return this.nodes.add(node);
 		}
@@ -179,7 +180,7 @@ public class TWDirectedGraph<T> {
 		public String toString() {
 			StringBuilder builder = new StringBuilder();
 			for (int i = 0; i < nodes.size() - 1; i++) {
-				builder.append(nodes.get(i) + "-->");
+				builder.append(nodes.get(i)).append("-->");
             }
 			builder.append(nodes.get(nodes.size() - 1));
             return builder.toString();
@@ -412,7 +413,7 @@ public class TWDirectedGraph<T> {
     /*                                      以下是解决问题的直接方法                                             *
     /***************************************************************************************************/
 
-    public GraphPath shortestpathBetween(T start, T destination) throws NoSuchNodeException, CanNotGetToNodeException {
+    public GraphPath shortestPathBetween(T start, T destination) throws NoSuchNodeException, CanNotGetToNodeException {
         checkInputNodes(start, destination);
 
         dijkstra(start, destination);
@@ -426,4 +427,46 @@ public class TWDirectedGraph<T> {
             return path;
         }
     }
+
+    public Integer distanceWithNodes(List<T> nodes) throws NoSuchNodeException, CanNotGetToNodeException {
+    	checkInputNodes((T[]) nodes.toArray());
+    	Integer distance = 0;
+    	for (int i = 0; i < nodes.size()-1; i++) {
+    		if (checkEdgeExists(nodes.get(i), nodes.get(i+1))) {
+    			distance += distanceForEdge(nodes.get(i), nodes.get(i+1));
+			} else {
+    			throw new CanNotGetToNodeException("There is no path");
+			}
+		}
+		return distance;
+	}
+
+	public Integer numOfRouteWithMaxStations(T start, T destination, Integer maxStations) throws NoSuchNodeException {
+    	checkInputNodes(start, destination);
+		return getLegalPaths(start, (path)->{
+			return path.stationCount() > maxStations; // To stop
+		}, (path)->{
+			return destination.equals(path.last()); // filter
+		});
+	}
+
+	public Integer numOfRouteWithStations(T start, T destination, Integer stations) throws NoSuchNodeException {
+    	checkInputNodes(start, destination);
+    	return getLegalPaths(start, (path)->{
+    		return path.stationCount().equals(stations);
+		}, (path)->{
+    		return destination.equals(path.last());
+		});
+	}
+
+	public Integer numOfRouteWithMaxDistance(T start, T destination, Integer maxDistance) throws NoSuchNodeException {
+    	checkInputNodes(start, destination);
+    	return getLegalPaths(start, path -> {
+    		return path.distance() > maxDistance;
+		}, path -> {
+    		return destination.equals(path.last());
+		});
+	}
+
+
 }

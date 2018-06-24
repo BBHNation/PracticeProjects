@@ -1,0 +1,9 @@
+distance:A,B,C
+distance:A,D
+distance:A,D,C
+distance:A,E,B,C,D
+routesNumWithMaxStation:C,C,3
+routesNumWithStation:A,C,4
+distanceOfShortestPath:A,C
+distanceOfShortestPath:B,B
+routesNumWithMaxDistance:C,C,29

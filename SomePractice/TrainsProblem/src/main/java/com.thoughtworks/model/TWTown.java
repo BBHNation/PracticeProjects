@@ -1,9 +1,9 @@
 package com.thoughtworks.model;
 
-class TWTown {
+public class TWTown {
 	private String name;
 
-	TWTown(String name) {
+	public TWTown(String name) {
 		this.name = name;
 	}
 
