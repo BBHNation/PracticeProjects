@@ -109,7 +109,7 @@ public class TWDirectedGraph<T> {
 	}
 	// End of Class GraphNode
 
-	/*
+	/**
 	 * {@code GraphPath} 是保存了一组按序排列的节点，其顺序表示遍历的顺序
 	 */
 	public class GraphPath {
@@ -410,7 +410,7 @@ public class TWDirectedGraph<T> {
     }
 
     /***************************************************************************************************/
-    /*                                      以下是解决问题的直接方法                                             *
+    /*                                      以下是解决问题的直接方法                                        */
     /***************************************************************************************************/
 
     public GraphPath shortestPathBetween(T start, T destination) throws NoSuchNodeException, CanNotGetToNodeException {
@@ -453,9 +453,9 @@ public class TWDirectedGraph<T> {
 	public Integer numOfRouteWithStations(T start, T destination, Integer stations) throws NoSuchNodeException {
     	checkInputNodes(start, destination);
     	return getLegalPaths(start, (path)->{
-    		return path.stationCount().equals(stations);
+    		return path.stationCount() > stations;
 		}, (path)->{
-    		return destination.equals(path.last());
+    		return destination.equals(path.last()) && path.stationCount() == stations;
 		});
 	}
 
@@ -464,7 +464,7 @@ public class TWDirectedGraph<T> {
     	return getLegalPaths(start, path -> {
     		return path.distance() > maxDistance;
 		}, path -> {
-    		return destination.equals(path.last());
+    		return destination.equals(path.last()) && path.distance <= maxDistance;
 		});
 	}
 

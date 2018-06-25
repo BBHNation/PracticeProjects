@@ -12,216 +12,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
+      <file leaf-file-name="TWTrainProblemServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TWDirectedGraph.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWDirectedGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7429">
+              <caret line="412" column="98" selection-start-line="412" selection-start-column="98" selection-end-line="412" selection-end-column="98" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-=======
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TWTown.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/model/TWTown.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="133">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TWQuestionForDistance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForDistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#601#602#0" expanded="true" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
+      <file leaf-file-name="TWQuestionFactoryImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionFactoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TWDirectedGraphTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/TWDirectedGraphTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6333#6341#0" expanded="true" />
+                <element signature="e#6761#6769#0" expanded="true" />
+                <element signature="e#7190#7198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="answer.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resource/answer.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="graph.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resource/graph.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-=======
-      <file leaf-file-name="TWTownMap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWTownMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="TWTrainProblemService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-=======
-      <file leaf-file-name="TWDirectedGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWDirectedGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="442" lean-forward="true" selection-start-line="442" selection-end-line="442" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4555#4556#0" expanded="true" />
-                <element signature="e#4597#4598#0" expanded="true" />
-                <element signature="e#4853#4854#0" expanded="true" />
-                <element signature="e#4896#4897#0" expanded="true" />
-              </folding>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="TWTrainProblemServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
       <file leaf-file-name="question.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resource/question.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-=======
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="1005" column="19" selection-start-line="1005" selection-start-column="19" selection-end-line="1005" selection-end-column="19" />
-=======
-      <file leaf-file-name="ParentRunner.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-833">
-              <caret line="62" column="15" lean-forward="true" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
-              <folding>
-                <element signature="e#2111#2112#0" expanded="true" />
-                <element signature="e#2155#2156#0" expanded="true" />
-                <element signature="e#6484#6648#0" expanded="true" />
-                <element signature="e#6647#6648#0" expanded="true" />
-              </folding>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="QuestionFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-=======
-      <file leaf-file-name="BlockJUnit4ClassRunner.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="QuestionFactoryImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionFactoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-=======
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="QuestionForDistance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionForDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
-                <element signature="e#1297#1298#0" expanded="true" />
-                <element signature="e#1335#1336#0" expanded="true" />
-=======
-      <file leaf-file-name="TWDirectedGraphTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/TWDirectedGraphTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#6423#6431#0" expanded="true" />
-                <element signature="e#6810#6818#0" expanded="true" />
-                <element signature="e#7317#7325#0" expanded="true" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="Question.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/Question.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-              <folding>
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-=======
-      <file leaf-file-name="QuestionForDistance.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionForDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-              </folding>
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -257,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/model/TWTown.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/resource/graph.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/questionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionFactory.java" />
@@ -266,62 +154,45 @@
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/test.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/GraphTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWTownMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWTownMapImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWDirectedGraph.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/TWDirectedGraphTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/TWTownMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/Question.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionForDistance.java" />
         <option value="$PROJECT_DIR$/src/resource/tem.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/Question.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionForDistance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionForShortestPath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionForStations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionForRoutesLimited.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/resource/question.txt" />
-=======
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemService.java" />
-        <option value="$PROJECT_DIR$/src/resource/graph.txt" />
-        <option value="$PROJECT_DIR$/src/resource/question.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/questionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/Question.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWTownMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWTownMapImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionForDistance.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/Application.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/GraphTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/TWQuestionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWDirectedGraph.java" />
+        <option value="$PROJECT_DIR$/src/resource/answer.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/model/TWTown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForRoutesLimited.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForShortestPath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForDistance.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/thoughtworks/TWDirectedGraphTest.java" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
+        <option value="$PROJECT_DIR$/src/resource/question.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-<<<<<<< HEAD
-    <option name="x" value="148" />
-=======
-    <option name="x" value="209" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-    <option name="y" value="23" />
-    <option name="width" value="1231" />
-    <option name="height" value="877" />
+    <option name="x" value="-199" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-=======
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,7 +230,15 @@
               <item name="JavaTrains" type="b2602c69:ProjectViewProjectNode" />
               <item name="TrainsProblem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.thoughtworks" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTrains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrainsProblem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.thoughtworks" type="462c0819:PsiDirectoryNode" />
@@ -369,49 +248,14 @@
               <item name="JavaTrains" type="b2602c69:ProjectViewProjectNode" />
               <item name="TrainsProblem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.thoughtworks" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTrains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainsProblem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTrains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainsProblem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-=======
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTrains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainsProblem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTrains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TrainsProblem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thoughtworks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-=======
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,11 +279,7 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
   <component name="RunManager" selected="Application.Main">
-=======
-  <component name="RunManager" selected="JUnit.TWDirectedGraphTest.testDistance3">
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.Application" />
       <module name="JavaTrains" />
@@ -448,7 +288,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TWDirectedGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TWDirectedGraphTest.testCountRoutesWithMaxDistance4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTrains" />
       <extension name="coverage">
         <pattern>
@@ -460,6 +300,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.TWDirectedGraphTest" />
+      <option name="METHOD_NAME" value="testCountRoutesWithMaxDistance4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TWQuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTrains" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thoughtworks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.thoughtworks" />
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.TWQuestionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -471,11 +334,7 @@
       </option>
       <patterns />
     </configuration>
-<<<<<<< HEAD
-    <configuration name="TWDirectedGraphTest.testCountRoutesWithHops1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="TWDirectedGraphTest.testDistance1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
+    <configuration name="TWQuestionTest.testDistanceQuestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTrains" />
       <extension name="coverage">
         <pattern>
@@ -486,12 +345,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.TWDirectedGraphTest" />
-<<<<<<< HEAD
-      <option name="METHOD_NAME" value="testCountRoutesWithHops1" />
-=======
-      <option name="METHOD_NAME" value="testDistance1" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
+      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.TWQuestionTest" />
+      <option name="METHOD_NAME" value="testDistanceQuestion" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -502,42 +357,7 @@
       </option>
       <patterns />
     </configuration>
-<<<<<<< HEAD
-    <configuration name="TWDirectedGraphTest.testCountRoutesWithMaxDistance4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="TWDirectedGraphTest.testDistance3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-      <module name="JavaTrains" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thoughtworks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.thoughtworks" />
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.TWDirectedGraphTest" />
-<<<<<<< HEAD
-      <option name="METHOD_NAME" value="testCountRoutesWithMaxDistance4" />
-=======
-      <option name="METHOD_NAME" value="testDistance3" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-<<<<<<< HEAD
     <configuration name="TWTownMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="TWDirectedGraphTest.testShortestPathBetween1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
       <module name="JavaTrains" />
       <extension name="coverage">
         <pattern>
@@ -548,15 +368,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
-<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.TWTownMapTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-=======
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.TWDirectedGraphTest" />
-      <option name="METHOD_NAME" value="testShortestPathBetween1" />
-      <option name="TEST_OBJECT" value="method" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -566,11 +380,7 @@
       </option>
       <patterns />
     </configuration>
-<<<<<<< HEAD
     <configuration name="TWTownMapTest.testRouteWithMaxDistance1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-=======
-    <configuration name="TWDirectedGraphTest.testShortestPathBetween2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
       <module name="JavaTrains" />
       <extension name="coverage">
         <pattern>
@@ -581,13 +391,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.thoughtworks" />
-<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.thoughtworks.TWTownMapTest" />
       <option name="METHOD_NAME" value="testRouteWithMaxDistance1" />
-=======
-      <option name="MAIN_CLASS_NAME" value="com.thoughtworks.TWDirectedGraphTest" />
-      <option name="METHOD_NAME" value="testShortestPathBetween2" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -638,35 +443,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-<<<<<<< HEAD
-      <item itemvalue="JUnit.TWDirectedGraphTest" />
-      <item itemvalue="JUnit.TWDirectedGraphTest.testCountRoutesWithHops1" />
       <item itemvalue="JUnit.TWTownMapTest" />
       <item itemvalue="JUnit.TWTownMapTest.testRouteWithMaxDistance1" />
       <item itemvalue="JUnit.TWDirectedGraphTest.testCountRoutesWithMaxDistance4" />
+      <item itemvalue="JUnit.TWQuestionTest.testDistanceQuestion" />
+      <item itemvalue="JUnit.TWQuestionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TWQuestionTest" />
+        <item itemvalue="JUnit.TWQuestionTest.testDistanceQuestion" />
         <item itemvalue="JUnit.TWTownMapTest.testRouteWithMaxDistance1" />
         <item itemvalue="JUnit.TWDirectedGraphTest.testCountRoutesWithMaxDistance4" />
         <item itemvalue="JUnit.TWTownMapTest" />
-        <item itemvalue="JUnit.TWDirectedGraphTest" />
-        <item itemvalue="JUnit.TWDirectedGraphTest.testCountRoutesWithHops1" />
-=======
-      <item itemvalue="JUnit.TWDirectedGraphTest.testShortestPathBetween1" />
-      <item itemvalue="JUnit.TWDirectedGraphTest.testShortestPathBetween2" />
-      <item itemvalue="JUnit.TWDirectedGraphTest.testDistance1" />
-      <item itemvalue="JUnit.TWDirectedGraphTest" />
-      <item itemvalue="JUnit.TWDirectedGraphTest.testDistance3" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TWDirectedGraphTest.testDistance3" />
-        <item itemvalue="JUnit.TWDirectedGraphTest" />
-        <item itemvalue="JUnit.TWDirectedGraphTest.testDistance1" />
-        <item itemvalue="JUnit.TWDirectedGraphTest.testShortestPathBetween2" />
-        <item itemvalue="JUnit.TWDirectedGraphTest.testShortestPathBetween1" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
       </list>
     </recent_temporary>
   </component>
@@ -684,28 +473,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-<<<<<<< HEAD
-    <history-entry file="TWTownMapTest - 2018.06.24 at 17h 59m 00s.xml">
-      <configuration name="TWTownMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWTownMapTest - 2018.06.24 at 17h 59m 25s.xml">
-      <configuration name="TWTownMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWTownMapTest - 2018.06.24 at 17h 59m 46s.xml">
-      <configuration name="TWTownMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWTownMapTest - 2018.06.24 at 17h 59m 53s.xml">
-      <configuration name="TWTownMapTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWTownMapTest_testRouteWithMaxDistance1 - 2018.06.24 at 18h 02m 54s.xml">
-      <configuration name="TWTownMapTest.testRouteWithMaxDistance1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWTownMapTest_testRouteWithMaxDistance1 - 2018.06.24 at 18h 04m 17s.xml">
-      <configuration name="TWTownMapTest.testRouteWithMaxDistance1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWTownMapTest_testRouteWithMaxDistance1 - 2018.06.24 at 18h 04m 57s.xml">
-      <configuration name="TWTownMapTest.testRouteWithMaxDistance1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TWDirectedGraphTest_testCountRoutesWithMaxDistance4 - 2018.06.24 at 18h 07m 30s.xml">
       <configuration name="TWDirectedGraphTest.testCountRoutesWithMaxDistance4" configurationId="JUnit" />
     </history-entry>
@@ -714,6 +481,27 @@
     </history-entry>
     <history-entry file="TWTownMapTest_testRouteWithMaxDistance1 - 2018.06.24 at 18h 08m 56s.xml">
       <configuration name="TWTownMapTest.testRouteWithMaxDistance1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TWQuestionTest_testDistanceQuestion - 2018.06.24 at 20h 10m 10s.xml">
+      <configuration name="TWQuestionTest.testDistanceQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TWQuestionTest_testDistanceQuestion - 2018.06.24 at 20h 16m 29s.xml">
+      <configuration name="TWQuestionTest.testDistanceQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TWQuestionTest - 2018.06.24 at 20h 18m 52s.xml">
+      <configuration name="TWQuestionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TWQuestionTest - 2018.06.24 at 20h 19m 43s.xml">
+      <configuration name="TWQuestionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TWQuestionTest_testDistanceQuestion - 2018.06.24 at 20h 20m 18s.xml">
+      <configuration name="TWQuestionTest.testDistanceQuestion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TWQuestionTest - 2018.06.24 at 20h 20m 21s.xml">
+      <configuration name="TWQuestionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TWQuestionTest - 2018.06.24 at 20h 21m 10s.xml">
+      <configuration name="TWQuestionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -725,66 +513,20 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-=======
-    <history-entry file="TWDirectedGraphTest - 2018.06.24 at 16h 42m 28s.xml">
-      <configuration name="TWDirectedGraphTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWDirectedGraphTest - 2018.06.24 at 16h 44m 38s.xml">
-      <configuration name="TWDirectedGraphTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWDirectedGraphTest - 2018.06.24 at 16h 51m 32s.xml">
-      <configuration name="TWDirectedGraphTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWDirectedGraphTest - 2018.06.24 at 16h 51m 50s.xml">
-      <configuration name="TWDirectedGraphTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWDirectedGraphTest - 2018.06.24 at 16h 52m 09s.xml">
-      <configuration name="TWDirectedGraphTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWDirectedGraphTest - 2018.06.24 at 16h 54m 40s.xml">
-      <configuration name="TWDirectedGraphTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWDirectedGraphTest_testDistance3 - 2018.06.24 at 16h 55m 59s.xml">
-      <configuration name="TWDirectedGraphTest.testDistance3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWDirectedGraphTest_testDistance3 - 2018.06.24 at 17h 03m 14s.xml">
-      <configuration name="TWDirectedGraphTest.testDistance3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWDirectedGraphTest_testDistance3 - 2018.06.24 at 17h 04m 35s.xml">
-      <configuration name="TWDirectedGraphTest.testDistance3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TWDirectedGraphTest_testDistance3 - 2018.06.24 at 17h 06m 11s.xml">
-      <configuration name="TWDirectedGraphTest.testDistance3" configurationId="JUnit" />
-    </history-entry>
-  </component>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-199" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-<<<<<<< HEAD
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32917705" />
-=======
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32917705" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32892057" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917705" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26476577" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.056109726" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24821173" />
-=======
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917705" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2446352" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19275825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -794,6 +536,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917705" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -801,131 +544,135 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-<<<<<<< HEAD
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWTownMapImpl.java</url>
-          <line>72</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForRoutesLimited.java</url>
+          <line>33</line>
           <properties />
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWDirectedGraph.java</url>
-          <line>399</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForRoutesLimited.java</url>
+          <line>37</line>
           <properties />
-          <option name="timeStamp" value="16" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWDirectedGraph.java</url>
-          <line>455</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForRoutesLimited.java</url>
+          <line>39</line>
           <properties />
-          <option name="timeStamp" value="17" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForRoutesLimited.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
-=======
-      <option name="time" value="9" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
+      <option name="time" value="29" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-<<<<<<< HEAD
+        <expression-string>townNames</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>question.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>question</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>inputString.split(&quot;,&quot;)</expression-string>
-=======
-        <expression-string>((ArrayList) inputNodes[0]).get(1)</expression-string>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-<<<<<<< HEAD
         <expression-string>inputStringList</expression-string>
-=======
-        <expression-string>inputNodes[0]</expression-string>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-<<<<<<< HEAD
         <expression-string>towns</expression-string>
-=======
-        <expression-string>inputNodes[0][0]</expression-string>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-<<<<<<< HEAD
         <expression-string>towns.get(start)</expression-string>
-=======
-        <expression-string>inputNodes[0][1]</expression-string>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-<<<<<<< HEAD
         <expression-string>((ArrayList) inputNodes[0]).get(1)</expression-string>
-=======
-        <expression-string>inputNodes</expression-string>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-<<<<<<< HEAD
         <expression-string>inputNodes[0]</expression-string>
-=======
-        <expression-string>inputNodes[1]</expression-string>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-<<<<<<< HEAD
-        <expression-string>inputNodes[0][0]</expression-string>
-=======
-        <expression-string>contains(node)</expression-string>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-<<<<<<< HEAD
-        <expression-string>inputNodes[0][1]</expression-string>
-=======
-        <expression-string>contains(nodes.get(2))</expression-string>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-<<<<<<< HEAD
-        <expression-string>inputNodes</expression-string>
-=======
-        <expression-string>contains(nodes.get(1))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>contains(nodes.get(0))</expression-string>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/model/TWTown.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="475">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -934,9 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -946,10 +690,6 @@
           <caret line="442" lean-forward="true" selection-start-line="442" selection-end-line="442" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4555#4556#0" expanded="true" />
-            <element signature="e#4597#4598#0" expanded="true" />
-            <element signature="e#4853#4854#0" expanded="true" />
-            <element signature="e#4896#4897#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -992,7 +732,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionForDistance.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForDistance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
@@ -1008,14 +748,15 @@
           <caret line="271" column="25" selection-start-line="271" selection-start-column="25" selection-end-line="271" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6333#6341#0" expanded="true" />
+            <element signature="e#6761#6769#0" expanded="true" />
+            <element signature="e#7190#7198#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/model/TWTown.java">
       <provider selected="true" editor-type-id="text-editor">
-=======
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
         <state relative-caret-position="95">
           <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
@@ -1027,13 +768,6 @@
           <caret line="467" column="10" selection-start-line="467" selection-start-column="10" selection-end-line="467" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-<<<<<<< HEAD
-            <element signature="e#4555#4556#0" expanded="true" />
-            <element signature="e#4597#4598#0" expanded="true" />
-            <element signature="e#4853#4854#0" expanded="true" />
-            <element signature="e#4896#4897#0" expanded="true" />
-=======
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
           </folding>
         </state>
       </provider>
@@ -1086,19 +820,8 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/model/TWTown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#601#602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1127,326 +850,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/graph.txt">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        <state relative-caret-position="18316">
+          <caret line="1005" column="19" selection-start-line="1005" selection-start-column="19" selection-end-line="1005" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/tem.txt" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/TWQuestionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/TWTownMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWTownMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/graph.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resource/question.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/TWDirectedGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="286" column="1" lean-forward="true" selection-start-line="286" selection-start-column="1" selection-end-line="286" selection-end-column="1" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/TWTownMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1124">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
+        <state relative-caret-position="266">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWTownMapImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="277">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-=======
-        <state relative-caret-position="1079">
-          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
+        <state relative-caret-position="1634">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/resource/tem.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="456">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForRoutesLimited.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForShortestPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWDirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="399" selection-start-line="399" selection-end-line="399" />
+        <state relative-caret-position="7429">
+          <caret line="412" column="98" selection-start-line="412" selection-start-column="98" selection-end-line="412" selection-end-column="98" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4555#4556#0" expanded="true" />
-            <element signature="e#4597#4598#0" expanded="true" />
-            <element signature="e#4853#4854#0" expanded="true" />
-            <element signature="e#4896#4897#0" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionForDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionForDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWTownMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/QuestionFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/model/TWTown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#601#602#0" expanded="true" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/model/TWTown.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="1005" column="19" selection-start-line="1005" selection-start-column="19" selection-end-line="1005" selection-end-column="19" />
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionForDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
-=======
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="62" column="15" lean-forward="true" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
-          <folding>
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2155#2156#0" expanded="true" />
-            <element signature="e#6484#6648#0" expanded="true" />
-            <element signature="e#6647#6648#0" expanded="true" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/resource/answer.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/service/TWTrainProblemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-=======
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/util/TWDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="442" lean-forward="true" selection-start-line="442" selection-end-line="442" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4555#4556#0" expanded="true" />
-            <element signature="e#4597#4598#0" expanded="true" />
-            <element signature="e#4853#4854#0" expanded="true" />
-            <element signature="e#4896#4897#0" expanded="true" />
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
-          </folding>
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/resource/question.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-=======
     <entry file="file://$PROJECT_DIR$/src/test/java/com/thoughtworks/TWDirectedGraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="209">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#6423#6431#0" expanded="true" />
-            <element signature="e#6810#6818#0" expanded="true" />
-            <element signature="e#7317#7325#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#6333#6341#0" expanded="true" />
+            <element signature="e#6761#6769#0" expanded="true" />
+            <element signature="e#7190#7198#0" expanded="true" />
           </folding>
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/graph.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/answer.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.thoughtworks/question/TWQuestionFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/question.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>

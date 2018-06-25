@@ -1,5 +1,10 @@
 package com.thoughtworks.model;
 
+/**
+ * 城镇类
+ * 实现了equals方法
+ * 实现了hashCode方法
+ */
 public class TWTown {
 	private String name;
 

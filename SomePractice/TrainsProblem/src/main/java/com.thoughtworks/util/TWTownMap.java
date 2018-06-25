@@ -14,11 +14,7 @@ public interface TWTownMap {
 
     public Integer numOfRoutesWithMaxStations(String start, String destination, Integer maxStation);
 
-<<<<<<< HEAD
     public Integer numOfRoutesWithStations(String start, String destination, Integer maxStation);
-=======
-    public Integer numOfRoutesWithStatinos(String start, String destination, Integer maxStation);
->>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
 
     public Integer numOfRoutesWithMaxDistance(String start, String destination, Integer maxDistance);
 
