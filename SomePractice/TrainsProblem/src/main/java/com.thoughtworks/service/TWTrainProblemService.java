@@ -2,6 +2,7 @@ package com.thoughtworks.service;
 
 import java.io.FileNotFoundException;
 
+<<<<<<< HEAD
 /**
  * 问题服务类，服务于Main函数
  */
@@ -25,4 +26,13 @@ public interface TWTrainProblemService {
      * @return 返回所有问题的答案
      */
     public String outputAnswer();
+=======
+public interface TWTrainProblemService {
+	
+    public void initWithFile(String filePath) throws FileNotFoundException;
+
+    public void inputQuestionWithFile(String filePath) throws FileNotFoundException;
+
+    public String outputAnwser();
+>>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
 }

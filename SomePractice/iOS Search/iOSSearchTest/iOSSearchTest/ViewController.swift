@@ -7,19 +7,58 @@
 //
 
 import UIKit
+import PYSearch
 
-class ViewController: UIViewController {
-
+class ViewController: UITableViewController {
+    var searchController: UISearchController?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        initSearchViewController()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
+}
 
 
+// MARK: - Some Functions
+extension ViewController {
+    func initSearchViewController() {
+        searchController = UISearchController.init(searchResultsController: nil)
+        searchController?.searchResultsUpdater = self
+        searchController?.dimsBackgroundDuringPresentation = false
+        searchController?.definesPresentationContext = true
+        tableView.tableHeaderView = searchController?.searchBar
+    }
+}
+
+
+// MARK: - UISearchResultsUpdating
+extension ViewController: UISearchResultsUpdating {
+    func updateSearchResults(for searchController: UISearchController) {
+        tableView.reloadData()
+    }
+}
+
+// MARK: - TableViewDataSource
+extension ViewController {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if (searchController?.isActive)! && searchController?.searchBar.text != "" {
+            return 3
+        }
+        return 5
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
+        return cell!
+    }
+    
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    
 }
 

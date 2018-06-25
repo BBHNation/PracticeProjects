@@ -12,7 +12,11 @@ public class TWTownMapImpl implements TWTownMap {
     private Map<String, TWTown> towns;
 
 
+<<<<<<< HEAD
     public TWTownMapImpl() {
+=======
+    TWTownMapImpl() {
+>>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
         graph = new TWDirectedGraph<>();
         towns = new HashMap<>();
     }
@@ -36,8 +40,11 @@ public class TWTownMapImpl implements TWTownMap {
             TWTown startTown = new TWTown(input.substring(0,1));
             TWTown destTown = new TWTown(input.substring(1,2));
             Integer distance = Integer.parseInt(input.substring(2));
+<<<<<<< HEAD
             addTown(startTown);
             addTown(destTown);
+=======
+>>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
             graph.addEdge(startTown, destTown, distance);
         }
 
@@ -97,7 +104,11 @@ public class TWTownMapImpl implements TWTownMap {
     }
 
     @Override
+<<<<<<< HEAD
     public Integer numOfRoutesWithStations(String start, String destination, Integer maxStation) {
+=======
+    public Integer numOfRoutesWithStatinos(String start, String destination, Integer maxStation) {
+>>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42
         try {
             return graph.numOfRouteWithStations(towns.get(start), towns.get(destination), maxStation);
         } catch (TWDirectedGraph.NoSuchNodeException e) {

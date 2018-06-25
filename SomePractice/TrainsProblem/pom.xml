@@ -29,6 +29,7 @@
 	    	    	<target>1.8</target>
 	    	    </configuration>
 	    	</plugin>
+<<<<<<< HEAD
             
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -46,3 +47,9 @@
 	</build>
 
 </project>
+=======
+	    </plugins>
+	</build>
+
+</project>
+>>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42

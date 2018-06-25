@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Train Problem Readme
 ## 代码的主要层次为：
 ```
@@ -48,3 +49,6 @@ TrainsProblem
 ## 程序运行方法
 - 使用IDEA设置主类Application运行
 - 使用maven构建完毕后命令行运行
+=======
+README.md
+>>>>>>> 4c2c229caf9f64c61dfd615b066ef05fe8b1db42

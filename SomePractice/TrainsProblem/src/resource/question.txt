@@ -1,12 +1,1 @@
-distance_of_towns:A,B,C
-distance_of_towns:A,D
-distance_of_towns:A,D,C
-distance_of_towns:A,E,B,C,D
 
-num_of_routes_with_max_stations:C,C,3
-num_of_routes_with_stations:A,C,4
-
-length_of_shortest_path:A,C
-length_of_shortest_path:B,B
-
-num_of_routes_with_max_distance:C,C,29
