@@ -256,7 +256,7 @@ public class TWDirectedGraphTest {
 
     @Test
     public void testCountRoutesWithHops3() throws TWDirectedGraph.NoSuchNodeException {
-        int distance = graph.numOfRouteWithMaxDistance(towns.get("B"), towns.get("C"), 1);
+        int distance = graph.numOfRouteWithMaxStations(towns.get("B"), towns.get("D"), 2);
         assertEquals(1, distance);
     }
 

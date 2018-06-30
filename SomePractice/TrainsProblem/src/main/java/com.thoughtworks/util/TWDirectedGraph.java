@@ -1,6 +1,5 @@
 package com.thoughtworks.util;
 
-import javax.naming.CannotProceedException;
 import java.util.*;
 
 public class TWDirectedGraph<T> {
@@ -46,13 +45,13 @@ public class TWDirectedGraph<T> {
 	private class GraphNode implements Comparable<GraphNode> {
 		private T data;
 		private Integer distance;
-		private GraphNode previousNode;
-		Map<T, Integer> neighbours; // TODO
+		private GraphNode previousNode; // 前一个节点
+		Map<T, Integer> neighbours; // 邻居
 
 		GraphNode(T data) {
 			this.data = data;
 			// 初始化时候Node只包含数据data，没有邻居节点的信息
-			this.neighbours = new HashMap<T, Integer>();
+			this.neighbours = new HashMap<>();
 		}
 
 		// Setter and Getter
